@@ -4,6 +4,22 @@ An end-to-end Python data analytics project evaluating transaction benchmarks, p
 
 ---
 
+## 📊 Project Overview
+- Analyzed year-wise card trends (public vs private banks).
+- Studied customer loyalty, risk & safety, ATM stress.
+- Correlation analysis: Credit vs Debit card POS & Online.
+
+## 🛠️ Tools Used
+- Python (Pandas, Matplotlib, Seaborn)
+- SQL (queries for transaction data)
+- Power BI (dashboards)
+
+## 🔑 Key Insights
+- Public banks declining, private banks rising.
+- More cash = more risk, more digital = more safety.
+- Airtel Payments Bank safest, Amex highest risk.
+
+
 ## 📋 Table of Contents
 - [Project Overview](#-project-overview)
 - [Key Objectives](#-key-objectives)
@@ -15,59 +31,6 @@ An end-to-end Python data analytics project evaluating transaction benchmarks, p
 - [License](#-license)
 
 ---
-
-# Banking Infrastructure & Digital Payment Ecosystem Analysis (2022–2025)
-
-## 📌 Project Overview
-This project analyzes **RBI ATM & POS infrastructure** and **digital payment ecosystem trends** across Indian banks (public & private).  
-Focus: ATM deployment (on-site vs off-site), POS expansion, card issuance, and transaction benchmarks.
-
----
-
-## 🎯 Key Objectives
-- Compare **ATM deployment trends** (2022–2025) across bank categories.  
-- Evaluate **POS terminal growth** and digital adoption.  
-- Study **card issuance dynamics** (debit vs credit).  
-- Identify **outlier transactions** and their business impact.  
-
----
-
-## 🛠 Tech Stack & Tools
-- **Python** → Pandas, NumPy, Seaborn, Matplotlib  
-- **EDA & Profiling** → Statistical summaries, boxplots, outlier detection  
-- **Visualization** → Trend analysis, comparative charts  
-- **Documentation** → Recruiter‑friendly insights + dashboards  
-
----
-
-## 📂 Repository Structure
-- `Raw Dataset.csv` → RBI ATM/POS/Card statistics (2022–2025)  
-- `Bankwise_ATM_POS_Card_Statistics_2022_onwards.xlsx` → Cleaned dataset  
-- `EDA_Notebook.ipynb` → Exploratory Data Analysis (Python)  
-- `README.md` → Documentation & insights  
-
----
-
-## 📊 Analytical Framework
-1. **Data Cleaning** → Handle missing values, normalize formats.  
-2. **Exploratory Analysis** → ATM vs POS growth, card issuance.  
-3. **Outlier Detection** → IQR, Z‑score, DBSCAN clustering.  
-4. **Visualization** → Trend charts, comparative bar plots, heatmaps.  
-5. **Business Insights** → ATM saturation, POS adoption, digital vs physical channel dynamics.  
-
----
- 
-
----
-
-## 💡 Key Insights
-- **ATM Deployment** → Public sector banks show slower growth vs private banks.  
-- **POS Expansion** → Digital adoption accelerating post‑2023, especially in Tier‑2 cities.  
-- **Card Issuance** → Credit card penetration rising, debit card growth plateauing.  
-- **Outliers** → High‑value transactions represent corporate payments, not errors.  
-
----
-
 
 ### This project demonstrates:  
 - **Data wrangling & visualization skills** (Python, Pandas, Seaborn).  
