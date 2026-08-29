@@ -190,6 +190,7 @@ ________________________________________________________________________________
 📈 Statistical Analysis – performed correlation checks and built trend forecasting models
 💡 Insights Generation – summarized adoption patterns and highlighted ROI drivers and risk factors
 
+=
 🛠 Tools Used
 🐍 Python (pandas, numpy, seaborn, matplotlib) – data loading, cleaning, and analysis
 ☁️ Google Colab – cloud-based Python environment
