@@ -21,7 +21,16 @@ Covers **data cleaning, visualization, and trend insights** to understand how AT
 ## 📊 Dataset
 - **File:** Banking-Analysis-2022-2025.csv  
 - **Size:** ~350 MB (replace with actual size)  
-- **Stored using:** Git LFS (Large File Storage), since GitHub’s normal file limit is 100MB  
+- **Stored using:** Git LFS (Large File Storage), since GitHub’s normal file limit is 100MB
+
+## 🛠 Tools & Technologies
+Python (Pandas, NumPy, Seaborn, Matplotlib)  
+Jupyter Notebook
+
+## 🔍 Analysis
+- Data cleaning & feature engineering (digital ratio)  
+- Bankwise comparison, monthly trends, ratio analysis  
+- Visual insights (bar plots, line charts, pair plots) 
 
 ### Dataset Column Details
 
@@ -143,22 +152,11 @@ Need to compare cash vs digital transaction patterns and forecast adoption.
 - **Market Benchmarking** → Compare debit vs credit spend.  
 - **Customer Loyalty Profiling** → Identify most engaged banks.  
 - **Risk & Safety Management** → Screen for fraud exposure in digital expansion.  
-
-## 📊 Dataset
-Source: RBI Bankwise ATM & POS Transactions  
-Variables: Bank, Date, ATM Transactions, POS Transactions  
-
-## 🛠 Tools & Technologies
-Python (Pandas, NumPy, Seaborn, Matplotlib)  
-Jupyter Notebook  
+  
 
 ## 📈 Methodology
-Business → Data → Modelling → Evaluation → Deployment  
-
-## 🔍 Analysis
-- Data cleaning & feature engineering (digital ratio)  
-- Bankwise comparison, monthly trends, ratio analysis  
-- Visual insights (bar plots, line charts, pair plots)  
+Business → Data → Modelling → Evaluation → Deployment
+ 
 
 ## 📑 Key Findings
 - ATM vs POS adoption patterns  
@@ -171,13 +169,10 @@ Business → Data → Modelling → Evaluation → Deployment
 ## ⚠️ Limitations
 Dataset scope (2022–2025), missing regional/demographic variables  
 
-----
 
 ## 🚀 Project Status
 ✅ Completed — Data cleaning, feature engineering, statistical modeling, visualization, and business recommendations.
 
-
----
 
 ## ✅ Final Conclusion
 - Digital adoption accelerated between 2022–2025.  
@@ -187,4 +182,38 @@ Dataset scope (2022–2025), missing regional/demographic variables
 
 -----
 
+**Banking Infrastructure & Digital Payments Analysis (2022–2025)**
+Project Workflow
+Step 1: Data Cleaning – removed duplicates, handled missing values, standardized column names.
+Step 2: Exploratory Data Analysis – studied bank category and bank name distribution, tracked time series trends for POS and UPI QR growth.
+Step 3: Feature Engineering – created digital ratio feature, derived comparative metrics for ATM vs POS and Debit vs Credit.
+Step 4: Statistical Analysis – performed correlation checks and built trend forecasting models.
+Step 5: Insights Generation – summarized adoption patterns and highlighted ROI drivers and risk factors.
 
+Tools Used
+Python (pandas, numpy, seaborn, matplotlib) for data loading, cleaning, and analysis.
+Google Colab as the cloud-based Python environment.
+Git and Git LFS for version control and large file storage.
+GitHub for hosting project code and dataset.
+
+Data Preprocessing and Feature Engineering
+Zero-imputation strategy: missing values in infra/transaction columns filled with 0 to preserve aggregate calculations.
+Infinity and NaN neutralization: divide-by-zero artefacts converted to NaN and filled with 0 to avoid skew.
+Date parsing: raw string dates converted into structured pandas datetime objects for time-series analysis.
+Duplicate removal: ensured unique records for bank-wise infra and transactions.
+Feature engineering included digital ratio (POS+UPI ÷ ATM), active card ratio, and categorical infra tiers using quantile segmentation.
+
+Statistical Analysis
+Mean values show baseline infra deployment across banks.
+Median values lower than mean confirm right-skewed distribution.
+Mode values highlight inactive banks baseline.
+High standard deviation indicates large variance in infra and transaction scale.
+Positive skewness shows few banks dominate infra, majority small scale.
+High kurtosis confirms fat-tailed distribution and extreme outliers.
+
+Key Takeaways
+Dataset shows heavy skewness – few banks dominate infra, majority small scale.
+Digital ratio feature highlights faster adoption in Private banks compared to branch-heavy Public banks.
+High kurtosis confirms outlier risks such as mega-deployments and sudden spikes.
+
+Visualization and Business Key Insights
