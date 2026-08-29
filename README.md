@@ -244,16 +244,4 @@ High kurtosis confirms fat-tailed distribution and extreme outliers.
 💳 Encourage credit card adoption with targeted incentives to diversify payment channels
 
 
-📌 Banking Infrastructure & Digital Payments Analysis (2022–2025)
-
-🔄 Project Workflow
-🧹 Data Cleaning – removed duplicates, handled missing values, standardized column names
-📊 Exploratory Data Analysis – studied bank category and bank name distribution, tracked time series trends for POS and UPI QR growth
-⚙️ Feature Engineering – created digital ratio feature, derived comparative metrics for ATM vs POS and Debit vs Credit
-📈 Statistical Analysis – performed correlation checks and built trend forecasting models
-💡 Insights Generation – summarized adoption patterns and highlighted ROI drivers and risk factors
-
-Statistical analysis:al Conclusion  
-📌 Digital adoption accelerated strongly between 2022–2025
-📌 Public banks dominate infrastructure deployment, but Private banks show faster UPI adoption
-📌 Debit card usage rem
+ 
