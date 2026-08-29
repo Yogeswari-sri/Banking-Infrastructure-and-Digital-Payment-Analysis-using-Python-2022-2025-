@@ -198,6 +198,48 @@ Dataset scope (2022–2025), missing regional/demographic variables
 
 -----
 
+---
+
+## 🔧 Data Preprocessing & Feature Engineering
+
+### **Data Cleaning Steps**
+
+- **Zero-Imputation Strategy: ** Missing values in infra/transaction columns filled with `0` to preserve aggregate calculations.  
+- **Infinity & NaN Neutralization: ** Divide-by-zero artefacts (`np.inf`) converted to `NaN` and filled with `0` to avoid skew.  
+- **Date Parsing: ** Raw string dates converted into structured `pandas datetime` objects (`year_month`) for time-series analysis.  
+- **Duplicate Removal :** Ensured unique records for bank‑wise infra and transactions.  
+
+### **Feature Engineering**
+
+- **Digital Ratio (POS+UPI ÷ ATM): ** Derived feature to measure digital adoption intensity.  
+- **Active Card Ratio: ** Debit vs credit active usage ratio for fair comparison.  
+- **Categorical Infra Tiers: ** Stratified banks into quadrants (High‑Infra‑Low‑Digital vs Low‑Infra‑High‑Digital) using `pd.qcut()`.  
+
+---
+
+## 📊 Statistical Analysis
+
+### **Statistical Summary Matrix**
+
+| Metric          | ATM Transactions | POS Transactions | Digital Ratio | Interpretation |
+|-----------------|-----------------|-----------------|---------------|----------------|
+| **Mean**        | 12,450          | 18,320          | 1.47          | Baseline average infra deployment |
+| **Median (50%) **| 2,100           | 3,250           | 0.92          | Lower than mean → right‑skewed |
+| **Mode**        | 0               | 0               | 0             | Baseline for inactive banks |
+| **Std Deviation**| 45,200         | 62,800          | 2.15          | High variance across banks |
+| **Skewness**    | +4.12           | +5.34           | +3.87         | Heavy positive skew (few mega‑deployments) |
+| **Kurtosis**    | +28.05          | +35.12          | +22.40        | Fat‑tailed distribution, extreme outliers |
+
+---
+
+## ✅ Key Takeaway
+- Dataset shows **heavy skewness** → few banks dominate infra, majority small scale.  
+- **Digital ratio feature** highlights faster adoption in Private banks vs branch‑heavy Public banks.  
+- High kurtosis confirms **outlier risks** (mega‑deployments, sudden spikes).
+
+-----
+
+
 ## 📊 Visualization & Business Key Insights
 
 ### **Fair Comparison Using Active Cards**
@@ -248,6 +290,14 @@ Trend chart of digital vs fraud exposure.
 
 ----
 
+## 🛠 Tools Used
+- **Python (pandas, numpy, seaborn, matplotlib)** — data loading, cleaning, and analysis  
+- **Google Colab** — cloud-based Python environment  
+- **Git & Git LFS** — version control and large file storage  
+- **GitHub** — hosting project code and dataset  
+
+
+-----
 
 ## 🚀 Project Status
 ✅ Completed — Data cleaning, feature engineering, statistical modeling, visualization, and business recommendations.
@@ -262,6 +312,5 @@ Trend chart of digital vs fraud exposure.
 - Hybrid models (branch + digital) deliver balanced growth.  
 
 -----
-
 
 
