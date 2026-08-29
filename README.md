@@ -252,3 +252,9 @@ Exploratory Data Analysis – studied bank category and bank name distribution, 
 Feature Engineering – created digital ratio feature, derived comparative metrics for ATM vs POS and Debit vs Credit
 Statistical Analysis – performed correlation checks and built trend forecasting models
 Insights Generation – summarized adoption patterns and highlighted ROI drivers and risk factors
+
+Tools Used
+Python with pandas, numpy, seaborn, and matplotlib for data loading, cleaning, and analysis
+Google Colab as the cloud-based Python environment
+Git and Git LFS for version control and large file storage
+GitHub for hosting project code and dataset
