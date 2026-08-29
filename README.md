@@ -11,25 +11,65 @@ Stored using: Git LFS (Large File Storage), since GitHub's normal file limit is 
 
 # Banking Infrastructure & Digital Payment Analysis (2022–2025)
 
-## 📊 Project Overview
-A Python‑based capstone project analyzing **Indian banking transactions** (ATM vs POS vs UPI vs QR) between 2022–2025.  
-The study highlights **digital adoption trends, customer loyalty, ROI efficiency, and risk management** using RBI datasets.
+
+## 📌 About This Project
+A Python project analyzing Indian banking infrastructure and digital payment adoption from 2022 to 2025.  
+Covers **data cleaning, visualization, and trend insights** to understand how ATMs, POS, QR, and card/UPI transactions evolved.
 
 ---
 
-## 🛠️ Tools & Environment
-- **Python** (Pandas, NumPy, Matplotlib, Seaborn)
-- **Google Colab / Jupyter Notebook**
-- **Power BI Dashboards** for interactive visualization
-- **GitHub + Git LFS** for version control and large dataset hosting
+## 📊 Dataset
+- **File:** Banking-Analysis-2022-2025.csv  
+- **Size:** ~350 MB (replace with actual size)  
+- **Stored using:** Git LFS (Large File Storage), since GitHub’s normal file limit is 100MB  
+
+### Dataset Column Details
+
+| Column | Description |
+|--------|-------------|
+| id | Unique identifier for each record |
+| date | Month/Year of transaction |
+| bank_category | Public / Private / Foreign |
+| bank_name | Name of the bank |
+| atms_crms_onsite | Onsite ATM/CRM count |
+| atms_crms_offsite | Offsite ATM/CRM count |
+| pos | POS terminals deployed |
+| micro_atms | Micro ATM count |
+| bharat_qr | Bharat QR adoption |
+| upi_qr | UPI QR adoption |
+| credit_cards | Credit cards issued |
+| debit_cards | Debit cards issued |
+| cc_pay_trns_at_pos_vol | Credit card POS transaction volume |
+| dc_pay_trns_online_val | Debit card online transaction value |
+| … | Other transaction metrics |
 
 ---
 
-## 📂 Dataset
-- **Source:** RBI Bankwise ATM & POS Transactions (India Data Portal)  
-- **File:** `Decadal-Study-of-Indian-Banking-Channels-2015-2025.csv` (~350 MB, Git LFS)  
-- **Scope:** 2022–2025 (year‑wise granularity)  
-- **Channels Covered:** ATMs (onsite/offsite), POS, Bharat QR, UPI QR, Debit & Credit card transactions  
+## ⚙️ How the Dataset Was Uploaded (Git Bash Workflow)
+
+```bash
+# 1. Configure Git identity
+git config --global user.name "Yogeswari-sri"
+git config --global user.email "kadalyoga20@gmail.com"
+
+# 2. Clone repo
+git clone https://github.com/<Yogeswari-sri>/Banking-Analysis-2022-2025.git
+cd Banking-Analysis-2022-2025
+
+# 3. Install Git LFS
+git lfs install
+
+# 4. Track large files
+git lfs track "*.csv"
+git add .gitattributes
+git commit -m "Configure Git LFS tracking"
+
+# 5. Add dataset
+git add Banking-Analysis-2022-2025.csv
+git commit -m "Add banking dataset via Git LFS"
+
+# 6. Push to GitHub
+git push
 
 ---
 
