@@ -244,17 +244,7 @@ High kurtosis confirms fat-tailed distribution and extreme outliers.
 💳 Encourage credit card adoption with targeted incentives to diversify payment channels
 
 
- 📌 Banking Infrastructure & Digital Payments Analysis (2022–2025)
 
-Project Workflow
-Data Cleaning – removed duplicates, handled missing values, standardized column names
-Exploratory Data Analysis – studied bank category and bank name distribution, tracked time series trends for POS and UPI QR growth
-Feature Engineering – created digital ratio feature, derived comparative metrics for ATM vs POS and Debit vs Credit
-Statistical Analysis – performed correlation checks and built trend forecasting models
-Insights Generation – summarized adoption patterns and highlighted ROI drivers and risk factors
 
-Tools Used
-Python with pandas, numpy, seaborn, and matplotlib for data loading, cleaning, and analysis
-Google Colab as the cloud-based Python environment
-Git and Git LFS for version control and large file storage
-GitHub for hosting project code and dataset
+Stored using: Git LFS (Large File Storage), since GitHub's normal file limit is 100MB)
+    Size: ~350 MB  
