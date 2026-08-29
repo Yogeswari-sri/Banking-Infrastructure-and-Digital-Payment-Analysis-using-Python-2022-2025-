@@ -75,7 +75,7 @@ git push
 
 ## 🔑 Analytical Objectives
 ### Objective 1 — Fair Comparison Using Active Cards
-**Goal:** Compare banks fairly by focusing on **active debit/credit cards** rather than issued cards.  
+##Goal: ## Compare banks fairly by focusing on **active debit/credit cards** rather than issued cards.  
 **Key Insights:**  
 - Public banks lead adoption with highest active card counts.  
 - Payment banks show weakest retention.  
