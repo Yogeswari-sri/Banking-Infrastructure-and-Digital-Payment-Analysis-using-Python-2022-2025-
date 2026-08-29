@@ -4,6 +4,13 @@ An end-to-end Python data analytics project evaluating transaction benchmarks, p
 
 ---
 
+Dataset
+
+    File: https://indiadataportal.com/p/reserve-bank-of-india/r/rbi-bankwise_atm_pos-in-mn-bx
+    Size: ~350 MB
+    Stored using: Git LFS (Large File Storage), since GitHub's normal file limit is 100MB
+
+
 # Banking Infrastructure & Digital Payment Analysis (2022–2025)
 
 ## 📊 Project Overview
