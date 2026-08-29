@@ -244,29 +244,14 @@ High kurtosis confirms fat-tailed distribution and extreme outliers.
 💳 Encourage credit card adoption with targeted incentives to diversify payment channels
 
 
-Tools Used:
+📌 Banking Infrastructure & Digital Payments Analysis (2022–2025)
 
-    Python (pandas) — data loading and analysis
-    Google Colab — cloud-based Python environment for the project
-    Git & Git LFS — version control and large file storage
-    GitHub — hosting the project code and dataset
-
-Data Preprocessing and Feature Engineering:
-
-Data Cleaning Steps:
-
-Zero-Imputation Strategy:
-
-    Missing structural values across financial columns were standard-filled (fillna(0)) to maintain numerical calculations without breaking baseline metrics.
-
-    Infinity and NaN Neutralization: Mathematical divisions resulting in infinite numbers (np.inf) were converted to NaN and filled with 0 to prevent skewing numerical models.
-
-    Date Parsing: Converted string dates into structured pandas datetime objects (year_month) for continuous timeline tracking.
-
-Feature Engineering:
-
-    Value Density ( Price Per Kg ): Derived value density per product to measure export pricing power:
-    Categorical Volume Tiers: Stratified physical quantities (value_qt) and pricing densities (price_per_kg_dl) into operational quadrants (e.g., High-Value-Low-Volume vs. Low-Value-High-Volume) using pd.qcut().
+🔄 Project Workflow
+🧹 Data Cleaning – removed duplicates, handled missing values, standardized column names
+📊 Exploratory Data Analysis – studied bank category and bank name distribution, tracked time series trends for POS and UPI QR growth
+⚙️ Feature Engineering – created digital ratio feature, derived comparative metrics for ATM vs POS and Debit vs Credit
+📈 Statistical Analysis – performed correlation checks and built trend forecasting models
+💡 Insights Generation – summarized adoption patterns and highlighted ROI drivers and risk factors
 
 Statistical analysis:al Conclusion  
 📌 Digital adoption accelerated strongly between 2022–2025
