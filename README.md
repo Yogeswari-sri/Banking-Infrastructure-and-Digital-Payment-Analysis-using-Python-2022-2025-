@@ -41,7 +41,7 @@ Covers **data cleaning, visualization, and trend insights** to understand how AT
 | debit_cards | Debit cards issued |
 | cc_pay_trns_at_pos_vol | Credit card POS transaction volume |
 | dc_pay_trns_online_val | Debit card online transaction value |
-| … | Other transaction metrics |
+| dc_pay_trns_others_val | Other transaction metrics |
 
 ---
 
@@ -74,76 +74,30 @@ git push
 ---
 
 ## 🔑 Analytical Objectives
-### Objective 1 — Fair Comparison Using Active Cards
-##Goal: ## Compare banks fairly by focusing on **active debit/credit cards** rather than issued cards.  
-**Key Insights:**  
-- Public banks lead adoption with highest active card counts.  
-- Payment banks show weakest retention.  
-- Benchmarking by active cards ensures realistic engagement view.
 
----
+### **Objective 1 — Fair Comparison Using Active Cards**
+Compare banks fairly using active debit/credit cards.
 
-### Objective 2 — Bank Category Growth Trends
-**Goal:** Track year‑wise changes in active cards across categories.  
-**Key Insights:**  
-- **SBI consistently leads** from 2022–2025, peaking in 2023.  
-- Sharp decline post‑2023 highlights retention challenges.  
-- Digital adoption strategies needed to sustain growth.
+### **Objective 2 — Bank Category Growth Trends**
+Track year‑wise changes in active cards across categories.
 
----
+### **Objective 3 — Real vs Digital Balance**
+Evaluate digital vs branch balance across bank categories.
 
-### Objective 3 — Real vs Digital Balance
-**Goal:** Evaluate digital vs branch balance across bank categories.  
-**Key Insights:**  
-- Small Finance Banks → extremely digital, minimal branch presence.  
-- Private Banks → healthy hybrid mix.  
-- Public Banks → branch‑oriented, slower digital shift.  
-- Payment & Foreign Banks → weak digital adoption.
+### **Objective 4 — Channel Smart Spending Efficiency**
+Assess ROI efficiency across ATM, POS, Bharat QR, and UPI QR.
 
----
+### **Objective 5 — ATM Stress & Maintenance**
+Monitor ATM workload trends for maintenance planning.
 
-### Objective 4 — Channel Smart Spending Efficiency
-**Goal:** Assess ROI efficiency across ATM, POS, Bharat QR, and UPI QR.  
-**Key Insights:**  
-- **POS + Bharat QR synergy** drives profitability.  
-- **UPI QR evolves independently** as future growth engine.  
-- ATM expansion supports debit base but limited ROI.
+### **Objective 6 — Bank Market Benchmarking**
+Compare debit vs credit spend across categories.
 
----
+### **Objective 7 — Customer Loyalty Profiling**
+Identify banks with most active and engaged customers.
 
-### Objective 5 — ATM Stress & Maintenance
-**Goal:** Track ATM workload trends for maintenance planning.  
-**Key Insights:**  
-- Onsite ATMs → higher stress, need quarterly checks.  
-- Offsite ATMs → low stress, half‑yearly maintenance sufficient.  
-- Overall ATM utilization remains under 2.4%.
-
----
-
-### Objective 6 — Bank Market Benchmarking
-**Goal:** Compare debit vs credit spend across categories.  
-**Key Insights:**  
-- Private Banks → highest debit spend, strong loyalty.  
-- Foreign Banks → balanced debit + credit, premium base.  
-- Public Banks → wide reach but weak credit adoption.  
-- Payment Banks → negligible spend.
-
----
-
-### Objective 7 — Customer Loyalty Profiling
-**Goal:** Identify banks with most active and engaged customers.  
-**Key Insights:**  
-- Private Banks lead in loyalty.  
-- Foreign Banks show premium but volatile loyalty.  
-- Public Banks lag in consistent engagement.
-
----
-
-### Objective 8 — Risk & Safety Management
-**Goal:** Screen for risk exposure in digital expansion.  
-**Key Insights:**  
-- High reliance on digital channels increases fraud risk.  
-- Balanced adoption (hybrid model) ensures safer growth.  
+### **Objective 8 — Risk & Safety Management**
+Screen for risk exposure in digital expansion.
 
 ---
 
