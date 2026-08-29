@@ -219,22 +219,17 @@ Dataset scope (2022–2025), missing regional/demographic variables
 
 ## 📊 Statistical Analysis
 
-### **Statistical Summary Matrix**
-
 ## 📊 Statistical Summary Matrix
 
-## 📊 Statistical Summary Matrix
-
-## 📊 Statistical Summary Matrix
-
-| Metric            | ATM Transactions | POS Transactions | Digital Ratio | Interpretation                                   |
+| Metric            | ATM Transactions| POS Transactions| Digital Ratio | Interpretation                                  |
 |-------------------|-----------------|-----------------|---------------|-------------------------------------------------|
 | **Mean**          | 12,450          | 18,320          | 1.47          | Baseline average infra deployment               |
 | **Median (50%)**  | 2,100           | 3,250           | 0.92          | Lower than mean → right‑skewed                  |
 | **Mode**          | 0               | 0               | 0             | Baseline for inactive banks                     |
 | **Std Deviation** | 45,200          | 62,800          | 2.15          | High variance across banks                      |
-| **Skewness**      | +4.12           | +5.34           | +3.87         | Heavy positive skew (few mega‑deployments)      |
+| **Skewness**      | +4.12           | +5.34           | +3.87         | Heavy positive skew (few mega‑deployments)    |
 | **Kurtosis**      | +28.05          | +35.12          | +22.40        | Fat‑tailed distribution, extreme outliers       |
+
 
 
 
