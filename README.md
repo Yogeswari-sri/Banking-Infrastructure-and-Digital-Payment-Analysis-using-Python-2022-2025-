@@ -156,6 +156,35 @@ git push
 
 ---
 
+How the Dataset is Read in Python (Google Colab)
+# STEP 1: Install Git LFS
+!apt-get install git-lfs -y
+!git lfs install
+
+# STEP 2: Clone repo
+!git clone https://github.com/<Yogeswari-sri>/Banking-Analysis-2022-2025.git
+
+# STEP 3: Check files
+!ls -la "/content/Banking-Analysis-2022-2025/"
+
+# STEP 4: Import pandas
+import pandas as pd
+
+# STEP 5: Load dataset
+df = pd.read_csv("/content/Banking-Analysis-2022-2025/Banking-Analysis-2022-2025.csv")
+
+# STEP 6: Preview
+df.head()
+
+# STEP 7: Info
+df.info()
+
+# STEP 8: Summary stats
+df.describe()
+
+-----
+
+
 ## 🚀 Project Status
 ✅ Completed — Data cleaning, feature engineering, statistical modeling, visualization, and business recommendations.
 
