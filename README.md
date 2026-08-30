@@ -187,7 +187,8 @@ Steps to clean and prepare RBI datasets for analysis:
 👉 Purpose: Ensures dataset is **clean, consistent, and analysis‑ready**.  
 
 
-🚀 Future Engineering Columns
+### 🚀 Future Engineering Columns
+
 This stage focuses on transforming raw banking transaction data into derived analytical features that capture customer behavior, infrastructure efficiency, and digital adoption intensity. These engineered metrics enable loyalty analysis, benchmarking, and risk profiling across banks.
 
 ---
