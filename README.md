@@ -23,7 +23,7 @@ Workflow includes:
 - Business Insights & Recommendations  
 
 ---
-
+## Task1: Problem Statement & Business Understanding
 <div align="center">
 
 ## 📝 Problem Statement
@@ -61,6 +61,7 @@ This project applies a complete Python data‑analytics pipeline to RBI transact
 ---
 
 📂 Column Dictionary
+
 This section provides a clear description of each column in the Banking Infrastructure & Digital Payment Analysis (2022–2025) dataset. It helps recruiters and reviewers quickly understand the dataset structure and the meaning of each field.
 | Column | Description |
 |--------|-------------|
@@ -97,6 +98,69 @@ This section provides a clear description of each column in the Banking Infrastr
 
 -----
 
+🎯 Analytical Objectives & Insights
+This section highlights the eight core objectives of the Banking Infrastructure & Digital Payment Analysis project, along with key business insights derived from the dataset.
+## Objective 1 — Fair Comparison Using Active Cards
+- Compare banks based on active card usage, not just issued cards  
+- Public banks lead adoption with highest active card counts  
+- Private banks competitive in urban segments  
+- Payment banks weakest in retention  
+
+---
+
+## Objective 2 — Bank Category Growth Trends
+- Year‑wise active card growth analysis (2022–2025)  
+- SBI consistently ranked best, peaking in 2023  
+- Decline in 2024–25 highlights retention challenges  
+
+---
+
+## Objective 3 — Real vs Digital Channel Balance
+- Digital vs branch ratio across categories  
+- Private banks show healthy hybrid mix  
+- Public banks slower digital shift  
+- Small Finance banks extremely digital, Payment banks almost fully physical  
+
+---
+
+## Objective 4 — Channel Smart Spending Efficiency
+- Correlation analysis between ATMs, POS, Bharat QR, UPI QR  
+- POS + Bharat QR synergy → strongest ROI driver  
+- UPI QR evolving independently as future digital engine  
+
+---
+
+## Objective 5 — Maintenance & ATM Stress
+- Onsite ATMs carry higher maintenance load → quarterly checks  
+- Offsite ATMs under‑utilized → half‑yearly checks sufficient  
+- Overall ATM stress line ~2.4% → infra under‑utilized  
+
+---
+
+## Objective 6 — Bank Market Benchmarking
+- Private banks dominate debit spend  
+- Foreign banks balanced debit + credit spend  
+- Public banks lag in credit adoption  
+- Payment banks negligible spend  
+
+---
+
+## Objective 7 — Customer Loyalty Profiling
+- Private sector banks show strongest loyalty (HDFC, ICICI, Axis)  
+- Foreign banks premium but concentrated risk  
+- Public banks weaker engagement  
+- Payment banks lowest retention  
+
+---
+
+## Objective 8 — Risk & Safety Management
+- Cash‑heavy banks face concentrated risk  
+- Airtel Payments Bank safest with digital focus  
+- American Express → high‑value withdrawals, concentrated risk  
+- Balanced adoption in Au Small Finance & Axis Bank  
+
+
+## Task2: Data Wrangling
 ## 🧹 Data Preprocessing
 ```python
 import pandas as pd
