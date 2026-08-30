@@ -791,7 +791,7 @@ The repository is organized for **easy navigation and reproducibility**:
 ---
 
 ### 🔧 How to Access & Run
-1. Clone the repository → `git clone <repo-link>`  
+1. Clone the repository → `git clone https://github.com/YogeswariK/Banking-Analytics`  
 2. Install dependencies → `pip install -r requirements.txt`  
 3. Open Jupyter Notebook → `jupyter notebook`  
 4. Run notebooks in sequence:  
