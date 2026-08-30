@@ -188,10 +188,42 @@ df["monthly_trans_per_credit_card"] = (cc_tot_vol / df["credit_cards"]).replace(
 df["cc_atm_avg_withdrawal_amt"] = (df["cc_cash_withdraw_atm_val"] / df["cc_cash_withdraw_atm_vol"]).replace([np.inf], np.nan).fillna(0)
 
 
-✅ Highlights
+## Task2: EDA
 
-Preprocessing ensures clean, consistent data (missing values handled, duplicates removed, divide‑by‑zero neutralized).
+📊 Statistical Profiling
+This stage summarizes the dataset using descriptive statistics to understand distribution, variance, and skewness across banking metrics.
 
-Transformation adds derived metrics: ATM share %, workload, average ticket size, monthly spend/transactions per card.
+## Key Metrics Analyzed
+- Monthly Spend (₹)  
+- Transaction Count  
+- Digital Share (Digital vs Physical ratio)  
+- ROI Ratio (Profitability per channel)  
+- Channel Efficiency (Utilization ratio)  
 
-Dataset becomes analysis‑ready for EDA, visualization, and business recommendations.
+## Statistical Summary
+| Metric            | Mean   | Median | Std. Deviation | Skewness | Kurtosis | Interpretation |
+|-------------------|--------|--------|----------------|----------|----------|----------------|
+| Monthly Spend (₹) | 5,240  | 1,120  | 14,890         | +4.82    | +32.14   | Strong right‑skew, few banks dominate |
+| Transaction Count | 12,450 | 2,100  | 45,200         | +5.12    | +41.05   | Heavy skew, high outlier risk |
+| Digital Share     | 0.62   | 0.55   | 0.25           | +2.45    | +12.30   | Uneven adoption across banks |
+| ROI Ratio         | 0.42   | 0.18   | 1.25           | +6.01    | +52.30   | High variance, few banks highly profitable |
+| Channel Efficiency| 1.15   | 0.80   | 2.10           | +3.88    | +21.44   | Outliers dominate efficiency distribution |
+
+## Insights
+- **Mean vs Median gap** confirms right‑skewed distributions.  
+- **High kurtosis** indicates fat‑tailed distributions → strong outlier presence.  
+- **Digital Share variance** shows uneven adoption intensity across bank categories.  
+- **ROI Ratio skewness** highlights that only a few banks achieve strong profitability.
+  <img width="980" height="612" alt="2" src="https://github.com/user-attachments/assets/14f4c0a2-a203-4dca-9fe3-5e1474f9d19c" />
+  <img width="1050" height="613" alt="1" src="https://github.com/user-attachments/assets/25231c01-0fa6-46a3-adbb-9301fcd95c5e" />
+
+
+✅ Highlights:
+
+Statistical profiling reveals outlier‑driven distributions.
+
+Confirms digital adoption unevenness across banks.
+
+Provides baseline for predictive and prescriptive analytics.
+
+
