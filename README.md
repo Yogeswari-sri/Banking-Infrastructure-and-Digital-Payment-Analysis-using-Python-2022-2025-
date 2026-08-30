@@ -266,6 +266,8 @@ df["cc_atm_avg_withdrawal_amt"] = (
     df["cc_cash_withdraw_atm_val"] / df["cc_cash_withdraw_atm_vol"]
 ).replace([np.inf], np.nan).fillna(0)
 
+'''
+
 🚀 Future Engineering Columns
 This stage focuses on transforming raw banking transaction data into derived analytical features that capture customer behavior, infrastructure efficiency, and digital adoption intensity. These engineered metrics enable loyalty analysis, benchmarking, and risk profiling across banks.
 
