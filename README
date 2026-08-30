@@ -5,6 +5,8 @@
 📌 Project Overview
 This project presents a Python‑based exploratory, statistical, and business intelligence analysis of Indian banking transactions and digital adoption trends between 2022–2025.
 
+______________________________________________________________________________________________________________________________________________________________________________________________________
+
 The workflow covers:
 
 Data Cleaning & Preprocessing
@@ -19,6 +21,7 @@ Data Visualization (Python + Power BI)
 
 Business Insights & Recommendations
 
+___________________________________________________________________________________________________________________________________________________________________________________________________________________________
 📝 Problem Statement
 Banks and policymakers often have access to large volumes of raw transaction data but lack a structured framework to convert it into actionable insights. This project addresses that gap by applying a complete Python data‑analytics pipeline to RBI transaction records, identifying growth trends, digital adoption ratios, seasonal anomalies, and translating findings into prescriptive business recommendations.
 
