@@ -1,17 +1,18 @@
-# Banking Infrastructure & Digital Payment Analysis using Python 2022-2025 ✅
-
 <div align="center">
 
 # 🏦 Banking Infrastructure & Digital Payment Analysis (2022–2025)
 
-📊 **Python + Power BI Project**
+📊 **Python + Power BI Capstone Project**
+
+👩‍💻 Prepared by: **Yogeswari K**  
+🎓 Course: Programme in AI Driven Data Analytics, Entri  
 
 </div>
 
 ---
 
 ## 📌 Project Overview
-This project presents a **Python‑based exploratory, statistical, and business intelligence analysis** of Indian banking transactions and digital adoption trends between 2022–2025.
+This project presents a **Python‑based exploratory, statistical, and business intelligence analysis** of Indian banking transactions and digital adoption trends between 2022–2025.  
 
 Workflow includes:
 - Data Cleaning & Preprocessing  
@@ -61,7 +62,22 @@ This project applies a complete Python data‑analytics pipeline to RBI transact
 
 ## 🧹 Data Preprocessing
 ```python
-# Example Preprocessing
-df = df.drop_duplicates()
+import pandas as pd
+import numpy as np
+
+# Load dataset
+df = pd.read_csv("Decadal-Study-of-Indian-Banking-Channels-2015-2025.csv")
+
+# Handle missing values
 df = df.fillna(0)
+
+# Remove duplicates
+df = df.drop_duplicates()
+
+# Neutralize divide-by-zero artefacts
+df.replace([np.inf, -np.inf], np.nan, inplace=True)
+df = df.fillna(0)
+
+# Convert date column
 df['date'] = pd.to_datetime(df['date'], errors='coerce')
+
