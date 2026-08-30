@@ -20,20 +20,3 @@ Business Insights & Recommendations
 
 📝 Problem Statement
 Banks and policymakers often have access to large volumes of raw transaction data but lack a structured framework to convert it into actionable insights. This project addresses that gap by applying a complete Python data‑analytics pipeline to RBI transaction records, identifying growth trends, digital adoption ratios, seasonal anomalies, and translating findings into prescriptive business recommendations.
-
-🎯 Objectives
-Compare ATM infrastructure vs POS usage
-
-Identify digital adoption (Credit vs Debit cards)
-
-Forecast transaction trends
-
-Evaluate digital vs physical channel balance
-
-Benchmark banks against market averages
-
-Profile customer loyalty and retention
-
-Assess risk exposure in digital adoption
-
-📂 Dataset
