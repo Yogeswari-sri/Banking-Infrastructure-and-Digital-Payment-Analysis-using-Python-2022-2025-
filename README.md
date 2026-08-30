@@ -41,6 +41,7 @@
 - [Conclusion](#conclusion)  
 - [Project Files & Access](#project-files--access)  
 
+## Executive Summary
 ## 📌 Executive Summary
 This project analyzes Indian banking infrastructure and digital payment adoption between 2022–2025 using RBI datasets.  
 It benchmarks banks on **ATM stress, POS + QR ROI, UPI QR adoption, customer loyalty, and risk exposure**, delivering recruiter‑friendly insights and recommendations.  
@@ -62,6 +63,7 @@ The Indian banking sector (2022–2025) is undergoing rapid transformation:
 
 ---
 
+## Problem Statement
 ## Task1: Problem Statement & Business Understanding
 <div align="left">
 
@@ -85,7 +87,7 @@ Indian banks face **three major challenges**:
 </div>
 
 -----
-
+## Project Objectives
 ## 🎯 Project Objectives
 This project presents a Python‑based exploratory, statistical, and business intelligence analysis of Indian banking transactions and digital adoption trends between 2022–2025.  
 
@@ -116,7 +118,7 @@ Measure repeat usage and active card retention to evaluate customer loyalty and 
 Screen for financial risk exposure in banks expanding digital services, ensuring growth is balanced with transaction security and fraud prevention.
 
 ---
-
+## Dataset Description
 ## 📂 Dataset Description
 
 - **Source:** Reserve Bank of India (RBI) published datasets (2022–2025)  
@@ -138,8 +140,7 @@ Screen for financial risk exposure in banks expanding digital services, ensuring
 
 <div align="left">
 
-## 🛠️ Tools & Technologies
-
+## Tools & Technologies
 ## 🛠️ Tools & Technologies  
 
 This project leverages a **Python data analysis stack** with industry‑standard libraries:
@@ -193,8 +194,7 @@ This section provides a clear description of each column in the Banking Infrastr
 
 -----
 
-## 🧹 Task 2: Data Wrangling  
-
+## Task 2: Data Wrangling  
 ## 🧹 Data Preprocessing  
 
 Steps applied to clean and prepare the dataset before feature engineering:
@@ -218,9 +218,8 @@ Steps applied to clean and prepare the dataset before feature engineering:
 
 ---
 
-⚙️ Feature Engineering
- 
- ### ⚙️ Feature Engineering
+## Feature Engineering 
+### ⚙️ Feature Engineering
 
 This stage focuses on transforming raw banking transaction data into derived analytical features that capture customer behavior, infrastructure efficiency, and digital adoption intensity. These engineered metrics enable loyalty analysis, benchmarking, and risk profiling across banks.
 
@@ -280,8 +279,7 @@ This stage focuses on transforming raw banking transaction data into derived ana
 - Channel risk benchmarking.
 
 -----
-## 🔍 Exploratory Data Analysis (EDA)
-
+## Exploratory Data Analysis (EDA)
 ## Task3:🔍 Exploratory Data Analysis (EDA)
 
 Visualizations help in understanding customer spending, digital adoption, and infrastructure efficiency. They also reveal skewness and kurtosis patterns in the dataset.
@@ -355,8 +353,7 @@ Kurtosis tells outlier impact → whether extreme users dominate or usage is bal
 
 Together, they explain customer loyalty, adoption imbalance, and risk concentration in Indian banking channels.
 
-📊 Visualization Objectives
-
+## Visualization Objectives
 ## 📊 Visualization Objectives  
 
 The goal of visualization is to convert engineered features into **clear, actionable insights**.  
@@ -364,7 +361,7 @@ Key objectives include:
 
 ## 1️⃣ Fair Comparison Using Active Cards
 
-## 🎯 Goal: Compare banks fairly by measuring active card usage instead of just issued cards, ensuring performance reflects real customer engagement.
+### 🎯 Goal: Compare banks fairly by measuring active card usage instead of just issued cards, ensuring performance reflects real customer engagement.
 
 ## 📈 Visualization
 
@@ -399,7 +396,7 @@ Payment banks weakest → structural retention challenges.
 Univariate analysis confirms engagement differences across categories.
 
 ## 2️⃣ Bank Category Growth Trends
-## 🎯 Goal: Track year‑wise changes in active cards across public, private, foreign, and small finance banks to highlight adoption patterns and identify leaders/laggards.
+### 🎯 Goal: Track year‑wise changes in active cards across public, private, foreign, and small finance banks to highlight adoption patterns and identify leaders/laggards.
 
 ## 📈 Visualization
 Line Chart / Trend Plot
@@ -433,7 +430,7 @@ Payment Banks → Weak adoption, minimal growth.
 
 
 ## 3️⃣ Real vs Digital Channel Balance
-## 🎯 Goal: Evaluate the optimal mix between physical branches/ATMs and digital channels (apps, POS, UPI) to maximize efficiency and customer convenience.
+### 🎯 Goal: Evaluate the optimal mix between physical branches/ATMs and digital channels (apps, POS, UPI) to maximize efficiency and customer convenience.
 
 ## 📈 Visualization
 Scatter Plot / Barplot
@@ -523,7 +520,7 @@ Offsite ATMs → Lower stress, can be maintained half‑yearly.
 Overall Stress Line (2.4%) → ATM infra underutilized, no urgent upgrades needed.
 
 ## 6️⃣ Bank Market (Debit vs Credit Spend)
-## 🎯 Goal: Compare average debit vs credit card spend across bank categories, spot leaders/laggards, and highlight uneven adoption patterns.
+### 🎯 Goal: Compare average debit vs credit card spend across bank categories, spot leaders/laggards, and highlight uneven adoption patterns.
 
 ## 📈 Visualization
 Pivot Table / Comparative Barplot
@@ -618,6 +615,7 @@ American Express → Very high withdrawals (₹4,000–₹5,000), few transactio
 Bandhan Bank → Low withdrawals (₹500–₹700), moderate transactions (80–120) → inclusion effort but uneven adoption.
 
 -----
+## Four‑Layer Analytics Framework  
 ## 🏗️ Four‑Layer Analytics Framework  
 
 The project follows a **four‑layer analytics maturity model** to ensure structured insights:
@@ -652,7 +650,7 @@ The project follows a **four‑layer analytics maturity model** to ensure struct
 - Invest in POS + QR for immediate ROI, prepare UPI QR as long‑term growth engine.  
 - Balance infra strategy → onsite ATMs quarterly, offsite half‑yearly, shift focus to digital channels.  
 
-## 📌 Key Business Takeaways
+## Key Business Takeaways
 Descriptive: Clear dominance of Public + Private banks, debit‑driven adoption.
 
 Diagnostic: Structural reasons → modernization gaps, loyalty programs, premium focus.
@@ -662,7 +660,8 @@ Predictive: Hybrid + UPI QR will shape future adoption.
 Prescriptive: Actionable roadmap → loyalty rewards, modernization, ROI drivers, infra balance.
 
 ----
-## 📌 Key Findings — Consolidated
+
+## Key Findings — Consolidated
 This section summarizes the most important insights derived from the analysis of Indian banking infrastructure and digital payment adoption (2022–2025).
 
 ### 🔑 Consolidated Insights
@@ -690,7 +689,7 @@ This section summarizes the most important insights derived from the analysis of
   - Digital‑focused banks (e.g., Airtel Payments Bank) manage risk best.  
   - American Express shows high‑value risk due to large withdrawals with few transactions.  
 
-## 📌 Business Takeaways
+## Business Takeaways
 ATM infra → maintain but avoid overinvestment.
 
 POS + QR → immediate ROI driver, expand merchant acceptance.
@@ -702,7 +701,8 @@ Customer loyalty → strongest in Private/Foreign banks, modernization needed in
 Risk management → cash‑heavy banks must diversify into digital channels.
 
 -----
-## 💼 Business Recommendations  
+
+## Business Recommendations  
 
 Based on the consolidated findings, the following strategic actions are recommended:
 
@@ -738,7 +738,8 @@ Customer Engagement → Loyalty programs + modernization critical for retention.
 Risk Management → Cash‑heavy banks must diversify into digital channels.
 
 -----
-## ⚠️ Limitations of the Study  
+
+## Limitations of the Study  
 While the analysis provides valuable insights, certain limitations exist:
 
 1. **Data Availability**  
@@ -762,8 +763,6 @@ While the analysis provides valuable insights, certain limitations exist:
 
 ---
 
-👉 Purpose: Acknowledging these limitations ensures the study remains **transparent, credible, and recruiter‑friendly**.
-
 ### 📌 Key Takeaways
 Insights are directional, not absolute → useful for benchmarking, but not predictive at customer level.
 
@@ -772,8 +771,7 @@ Future studies should integrate demographics, fraud data, and merchant categorie
 Combining RBI datasets with fintech adoption metrics will provide a more holistic view.
 
 ----
-🏁 Conclusion
-## 🏁 Conclusion  
+## Conclusion
 
 This project demonstrates how **Indian banking infrastructure and digital payment adoption (2022–2025)** can be analyzed using a structured, four‑layer analytics framework.  
 
@@ -782,7 +780,7 @@ This project demonstrates how **Indian banking infrastructure and digital paymen
 - **Recruiter Relevance** → Showcases end‑to‑end workflow: data preprocessing → feature engineering → visualization → strategic recommendations.  
 
 ---
-## 📁 Project Files & Access  
+## Project Files & Access  
 
 The repository is organized for **easy navigation and reproducibility**:
 
@@ -806,7 +804,7 @@ The repository is organized for **easy navigation and reproducibility**:
    - `04_findings_recommendations.ipynb`  
 
 ---
-📬 Contact & Usage
+## Contact & Usage
 ## 📬 Contact & Usage  
 
 For queries, collaboration, or feedback:  
