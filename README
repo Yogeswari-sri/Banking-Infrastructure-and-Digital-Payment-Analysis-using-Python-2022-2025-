@@ -1,25 +1,19 @@
 # Banking Infrastructure & Digital Payment Analysis using Python 2022-2025 ✅
 
-🏦 Banking Infrastructure & Digital Payment Analysis (2022–2025)
-
+🗽 NYC 311 Service Requests Analysis Using Python & Power BI
 📌 Project Overview
-This project presents a Python‑based exploratory, statistical, and business intelligence analysis of Indian banking transactions and digital adoption trends between 2022–2025.
 
-______________________________________________________________________________________________________________________________________________________________________________________________________
+This project analyzes the NYC 311 Service Requests dataset using Python and Power BI to identify complaint patterns, service demand, agency workload, borough-wise distributions, reporting channels, and geographic hotspots.
 
-The workflow covers:
+The project includes:
 
-Data Cleaning & Preprocessing
-
-Exploratory Data Analysis (EDA)
-
-Feature Engineering
-
-Statistical Profiling
-
-Data Visualization (Python + Power BI)
-
-Business Insights & Recommendations
+    Data Cleaning & Preprocessing
+    Exploratory Data Analysis (EDA)
+    Feature Engineering
+    Statistical Analysis
+    Data Visualization
+    Interactive Power BI Dashboard
+    End-to-End Automation Workflow using n8n + Python + Google Sheets + Power BI
 
 ___________________________________________________________________________________________________________________________________________________________________________________________________________________________
 📝 Problem Statement
