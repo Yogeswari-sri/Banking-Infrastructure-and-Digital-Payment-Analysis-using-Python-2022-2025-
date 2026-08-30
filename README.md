@@ -173,18 +173,39 @@ Measure repeat usage and active card retention to evaluate customer loyalty and 
 ## Objective 8 — Risk & Safety Management
 Screen for financial risk exposure in banks expanding digital services, ensuring growth is balanced with transaction security and fraud prevention.
 
+## 🧹 Task 2: Data Wrangling  
 
-## Task2: Data Wrangling
+### 🧹 Data Preprocessing & 🧩 Data Transformation  
+This stage ensures the dataset is cleaned, structured, and transformed into analysis‑ready formats.  
+Steps include handling missing values, removing duplicates, correcting divide‑by‑zero artefacts, converting floats to integers, and deriving new analytical features.  
 
-🧹 Data Preprocessing & 🔄 Data Transformation
-This stage ensures the dataset is cleaned, structured, and transformed into analysis‑ready formats.
-Steps include handling missing values, removing duplicates, correcting divide‑by‑zero artefacts, converting floats to integers, and deriving new analytical features.
+---
 
+## 🧹 Data Preprocessing
+
+# Handle missing values
+df = df.fillna(0)
+
+# Remove duplicates
+df = df.drop_duplicates()
+
+# Replace infinite values with NaN
+df.replace([np.inf, -np.inf], np.nan, inplace=True)
+
+# Neutralize divide-by-zero artefacts
+df = df.fillna(0)
+
+# Convert date column to datetime
+df['date'] = pd.to_datetime(df['date'], errors='coerce')
+
+
+### 📥 Load Dataset
+```python
 import pandas as pd
 import numpy as np
 
-# Load dataset
 df = pd.read_csv("Decadal-Study-of-Indian-Banking-Channels-2015-2025.csv")
+
 
 # 🧹 Data Preprocessing
 df = df.fillna(0)                # Handle missing values
@@ -193,34 +214,42 @@ df.replace([np.inf, -np.inf], np.nan, inplace=True)
 df = df.fillna(0)                # Neutralize divide-by-zero artefacts
 df['date'] = pd.to_datetime(df['date'], errors='coerce')  # Convert date column
 
-# 🔄 Data Transformation
+🧩 Task 2: Data Transformation
+## 🧩 Task 2: Data Transformation  
 
-# 1. Total Physical ATM Count
+This stage derives **new analytical features** from raw RBI datasets to enable deeper insights into banking infrastructure, customer behavior, and risk exposure.  
+
+---
+
+### 🔧 Transformation Steps
+
+**1. Total Physical ATM Count**  
+```python
 df['total_atms'] = df['atms_crms_onsite'] + df['atms_crms_offsite']
 
-# 2. Onsite ATM Share %
+2. Onsite ATM Share (%)
 df['onsite_atm_share_pct'] = (
     (df['atms_crms_onsite'] / df['total_atms']) * 100
 ).replace([np.inf], np.nan).fillna(0)
 
-# 3. Offsite ATM Share %
+3. Offsite ATM Share (%)
 df['offsite_atm_share_pct'] = (
     (df['atms_crms_offsite'] / df['total_atms']) * 100
 ).replace([np.inf], np.nan).fillna(0)
 
-# 4. ATM Workload / Stress Level
+4. ATM Workload / Stress Level
 atm_total_vol = df["dc_cash_withdraw_atm_vol"] + df["cc_cash_withdraw_atm_vol"]
 df["trans_per_atm"] = (atm_total_vol / df["total_atms"]).replace([np.inf], np.nan).fillna(0)
 
-# Debit Card Channel-wise Average Ticket Size
+💳 Debit Card Channel‑wise Average Ticket Size
 df["dc_pos_avg"] = (df["dc_pay_trns_at_pos_val"] / df["dc_pay_trns_at_pos_vol"]).replace([np.inf], np.nan).fillna(0)
 df["dc_online_avg"] = (df["dc_pay_trns_online_val"] / df["dc_pay_trns_online_vol"]).replace([np.inf], np.nan).fillna(0)
 
-# Credit Card Channel-wise Average Ticket Size
+💳 Credit Card Channel‑wise Average Ticket Size
 df["cc_pos_avg"] = (df["cc_pay_trns_at_pos_val"] / df["cc_pay_trns_at_pos_vol"]).replace([np.inf], np.nan).fillna(0)
 df["cc_online_avg"] = (df["cc_pay_trns_online_val"] / df["cc_pay_trns_online_vol"]).replace([np.inf], np.nan).fillna(0)
 
-# Fair Comparison & Customer Loyalty (Normalized Metrics per Active Card)
+📊 Fair Comparison & Customer Loyalty (Normalized Metrics per Active Card)
 dc_tot_val = df["dc_pay_trns_at_pos_val"] + df["dc_pay_trns_online_val"] + df["dc_pay_trns_other_val"] + df["dc_cash_withdraw_atm_val"] + df["dc_cash_withdraw_pos_val"]
 dc_tot_vol = df["dc_pay_trns_at_pos_vol"] + df["dc_pay_trns_online_vol"] + df["dc_pay_trns_other_vol"] + df["dc_cash_withdraw_atm_vol"] + df["dc_cash_withdraw_pos_vol"]
 
@@ -232,70 +261,75 @@ df["monthly_spend_per_credit_card"] = (cc_tot_val / df["credit_cards"]).replace(
 df["monthly_trans_per_debit_card"] = (dc_tot_vol / df["debit_cards"]).replace([np.inf], np.nan).fillna(0)
 df["monthly_trans_per_credit_card"] = (cc_tot_vol / df["credit_cards"]).replace([np.inf], np.nan).fillna(0)
 
-# Average withdrawal amount per ATM transaction
-df["cc_atm_avg_withdrawal_amt"] = (df["cc_cash_withdraw_atm_val"] / df["cc_cash_withdraw_atm_vol"]).replace([np.inf], np.nan).fillna(0)
+🏧 Average Withdrawal Amount per ATM Transaction
+df["cc_atm_avg_withdrawal_amt"] = (
+    df["cc_cash_withdraw_atm_val"] / df["cc_cash_withdraw_atm_vol"]
+).replace([np.inf], np.nan).fillna(0)
 
-## 🚀 Future Engineering Columns
-
+🚀 Future Engineering Columns
 This stage focuses on transforming raw banking transaction data into derived analytical features that capture customer behavior, infrastructure efficiency, and digital adoption intensity. These engineered metrics enable loyalty analysis, benchmarking, and risk profiling across banks.
 
-## 1. Credit vs Debit Card Usage
-- `monthly_spend_per_debit_card` → Average monthly spend per debit card  
-- `monthly_spend_per_credit_card` → Average monthly spend per credit card  
-- `monthly_trans_per_debit_card` → Average monthly transactions per debit card  
-- `monthly_trans_per_credit_card` → Average monthly transactions per credit card  
+## 🚀 Future Engineering Columns  
 
-👉 Purpose: Highlights **customer spending patterns** and **transaction frequency**, enabling fair comparison of debit vs credit adoption.
+Derived features created to capture **customer behavior, infrastructure efficiency, and digital adoption**.  
+These metrics support **loyalty analysis, benchmarking, and risk profiling**.  
 
 ---
 
-## 2. Total Active Cards
-- `total_active_debit_cards` → Count of active debit cards  
-- `total_active_credit_cards` → Count of active credit cards  
-- `total_active_cards` → Combined active debit + credit cards  
+### 1. Credit vs Debit Card Usage
+- `monthly_spend_per_debit_card`  
+- `monthly_spend_per_credit_card`  
+- `monthly_trans_per_debit_card`  
+- `monthly_trans_per_credit_card`  
 
-👉 Purpose: Ensures **engagement‑based benchmarking** (active usage vs issued cards), avoiding inflated adoption metrics.
-
----
-
-## 3. Real vs Digital Adoption
-- `digital_vs_real_ratio` → Ratio of digital channel usage (UPI/QR/Online) vs physical (ATM/POS)  
-- `total_atms` → Combined onsite + offsite ATM count  
-- `onsite_atm_share_pct` → Share of onsite ATMs (branch‑attached deployment strategy)  
-- `offsite_atm_share_pct` → Share of offsite ATMs (public accessibility strategy)  
-
-👉 Purpose: Measures **digital intensity vs branch reliance**, and evaluates **ATM deployment efficiency**.
+👉 Compare debit vs credit adoption.  
 
 ---
 
-## 4. Channel Smart Spending & Risk Profile
-- `dc_pos_avg` → Average debit card spend per POS transaction  
-- `dc_online_avg` → Average debit card spend per online transaction  
-- `cc_pos_avg` → Average credit card spend per POS transaction  
-- `cc_online_avg` → Average credit card spend per online transaction  
+### 2. Total Active Cards
+- `total_active_debit_cards`  
+- `total_active_credit_cards`  
+- `total_active_cards`  
 
-👉 Purpose: Profiles **channel risk** (POS vs Online), identifies **e‑commerce adoption trends**, and benchmarks smart spending behavior.
+👉 Benchmark active usage vs issued cards.  
 
 ---
 
-## 5. Risk & Efficiency Indicators
-- `trans_per_atm` → ATM workload stress index (transactions per ATM)  
-- `cc_atm_avg_withdrawal_amt` → Average withdrawal amount per credit card ATM transaction  
+### 3. Real vs Digital Adoption
+- `digital_vs_real_ratio`  
+- `total_atms`  
+- `onsite_atm_share_pct`  
+- `offsite_atm_share_pct`  
 
-👉 Purpose: Detects **ATM stress levels**, highlights **cash‑heavy risk exposure**, and supports **maintenance optimization**.
+👉 Measure digital intensity & ATM efficiency.  
 
-✅ Highlights:
+---
 
-Adds total active card counts for fair comparison across banks.
+### 4. Channel Smart Spending
+- `dc_pos_avg`  
+- `dc_online_avg`  
+- `cc_pos_avg`  
+- `cc_online_avg`  
 
-Captures digital vs physical adoption intensity.
+👉 Profile POS vs Online risk & spending.  
 
-Profiles ATM deployment efficiency (onsite vs offsite).
+---
 
-Benchmarks channel risk & spending behavior (POS vs Online vs ATM).
+### 5. Risk & Efficiency Indicators
+- `trans_per_atm`  
+- `cc_atm_avg_withdrawal_amt`  
 
+👉 Detect ATM stress & cash‑heavy risk.  
 
-## Task2: EDA
+---
+
+✅ **Highlights**
+- Fair comparison across banks.  
+- Digital vs physical adoption clarity.  
+- ATM deployment efficiency.  
+- Channel risk benchmarking.
+
+-----
 
 ### 📊 Exploratory Data Analysis (EDA) & Visualization
 
