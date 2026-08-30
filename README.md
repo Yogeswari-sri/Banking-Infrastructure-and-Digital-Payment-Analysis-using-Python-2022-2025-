@@ -187,6 +187,46 @@ df["monthly_trans_per_credit_card"] = (cc_tot_vol / df["credit_cards"]).replace(
 # Average withdrawal amount per ATM transaction
 df["cc_atm_avg_withdrawal_amt"] = (df["cc_cash_withdraw_atm_val"] / df["cc_cash_withdraw_atm_vol"]).replace([np.inf], np.nan).fillna(0)
 
+🚀 Future Engineering Columns
+
+These engineered features capture customer behavior, infrastructure efficiency, and digital adoption trends. They will be used for loyalty analysis, benchmarking, and risk profiling.
+## 1. Credit vs Debit Card Usage
+- `monthly_spend_per_debit_card` → Average monthly spend per debit card  
+- `monthly_spend_per_credit_card` → Average monthly spend per credit card  
+- `monthly_trans_per_debit_card` → Average monthly transactions per debit card  
+- `monthly_trans_per_credit_card` → Average monthly transactions per credit card  
+
+## 2. Total Active Cards
+- `total_active_debit_cards` → Count of active debit cards  
+- `total_active_credit_cards` → Count of active credit cards  
+- `total_active_cards` → Combined active debit + credit cards  
+
+## 3. Real vs Digital Adoption
+- `digital_vs_real_ratio` → Ratio of digital channel usage (UPI/QR/Online) vs physical (ATM/POS)  
+- `total_atms` → Combined onsite + offsite ATM count  
+- `onsite_atm_share_pct` → Share of onsite ATMs (branch‑attached deployment strategy)  
+- `offsite_atm_share_pct` → Share of offsite ATMs (public accessibility strategy)  
+
+## 4. Channel Smart Spending & Risk Profile
+- `dc_pos_avg` → Average debit card spend per POS transaction  
+- `dc_online_avg` → Average debit card spend per online transaction  
+- `cc_pos_avg` → Average credit card spend per POS transaction  
+- `cc_online_avg` → Average credit card spend per online transaction  
+
+## 5. Risk & Efficiency Indicators
+- `trans_per_atm` → ATM workload stress index (transactions per ATM)  
+- `cc_atm_avg_withdrawal_amt` → Average withdrawal amount per credit card ATM transaction  
+
+✅ Highlights:
+
+Adds total active card counts for fair comparison across banks.
+
+Captures digital vs physical adoption intensity.
+
+Profiles ATM deployment efficiency (onsite vs offsite).
+
+Benchmarks channel risk & spending behavior (POS vs Online vs ATM).
+
 
 ## Task2: EDA
 
