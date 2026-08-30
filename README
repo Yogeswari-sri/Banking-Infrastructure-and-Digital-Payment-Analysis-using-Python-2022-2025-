@@ -32,6 +32,11 @@ Jupyter Notebook
 - Bankwise comparison, monthly trends, ratio analysis  
 - Visual insights (bar plots, line charts, pair plots) 
 
+
+''' python
+# pandas is the main library used to read, clean, and analyze tabular data
+import pandas as pd
+
 ### Dataset Column Details
 
 | Column | Description |
@@ -180,7 +185,8 @@ Dataset scope (2022–2025), missing regional/demographic variables
 - Debit card usage dominates, credit penetration remains weak.  
 - Hybrid models (branch + digital) deliver balanced growth.  
 
-_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+'''
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 📌 Banking Infrastructure & Digital Payments Analysis (2022–2025)
 
 🔄 Project Workflow
