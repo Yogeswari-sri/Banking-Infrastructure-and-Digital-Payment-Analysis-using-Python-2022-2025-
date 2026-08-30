@@ -130,96 +130,13 @@ Screen for financial risk exposure in banks expanding digital services, ensuring
 ## Task2: Data Wrangling
 
 🧹 Data Preprocessing & 🔄 Data Transformation
-This stage focuses on cleaning, preparing, and transforming the dataset into a structured format ready for advanced analysis.
-Steps include handling missing values, removing duplicates, correcting errors, converting floats to integers, and deriving new analytical features.
+This stage ensures the dataset is cleaned, structured, and transformed into analysis‑ready formats.
+Steps include handling missing values, removing duplicates, correcting divide‑by‑zero artefacts, converting floats to integers, and deriving new analytical features.
 
-## 🧹 Data Preprocessing
-- Handle missing values by replacing nulls with 0  
-- Remove duplicate records to ensure consistency  
-- Neutralize divide‑by‑zero artefacts (replace inf with NaN → 0)  
-- Convert raw date strings into Pandas datetime objects  
+✅ Highlights
 
-## 🔄 Data Transformation
-- Convert float columns into integers where appropriate  
-- Standardize categorical fields (bank_category, bank_name)  
-- Derive new metrics for analysis:
-  - ROI Ratio → Profitability per channel  
-  - Digital vs Physical Share → Adoption intensity of digital vs ATM/POS  
-  - Channel Efficiency Index → Utilization ratio of transactions per infrastructure unit  
-  - Customer Engagement Tier → Segmentation using transaction frequency quantiles  
+Preprocessing ensures clean, consistent data (missing values handled, duplicates removed, divide‑by‑zero neutralized).
 
-📜 Example Code
-import pandas as pd
-import numpy as np
+Transformation adds derived metrics: ATM share %, workload, average ticket size, monthly spend/transactions per card.
 
-# Load dataset
-df = pd.read_csv("Decadal-Study-of-Indian-Banking-Channels-2015-2025.csv")
-
-# 🧹 Data Preprocessing
-df = df.fillna(0)                # Handle missing values
-df = df.drop_duplicates()        # Remove duplicates
-df.replace([np.inf, -np.inf], np.nan, inplace=True)
-df = df.fillna(0)                # Neutralize divide-by-zero artefacts
-df['date'] = pd.to_datetime(df['date'], errors='coerce')  # Convert date column
-
-# 🔄 Data Transformation
-float_to_int_cols = [
-    'atms_crms_onsite','atms_crms_offsite',
-    'cc_pay_trns_at_pos_vol','cc_pay_trns_at_pos_val',
-    'cc_pay_trns_online_vol','cc_pay_trns_online_val',
-    'cc_pay_trns_other_vol','cc_pay_trns_other_val',
-    'cc_cash_withdraw_atm_val','cc_cash_withdraw_atm_vol',
-    'dc_pay_trns_at_pos_val','dc_pay_trns_online_val',
-    'dc_pay_trns_other_val','dc_cash_withdraw_atm_vol',
-    'dc_cash_withdraw_pos_vol'
-]
-
-for col in float_to_int_cols:
-    df[col] = df[col].astype(int)
-
-# Derived Metrics
-df['ROI_Ratio'] = (
-    (df['cc_pay_trns_at_pos_val'] + df['dc_pay_trns_at_pos_val']) /
-    (df['pos'] + 1)
-)
-
-df['Digital_Share'] = (
-    df['upi_qr'] + df['bharat_qr']
-) / (
-    df['atms_crms_onsite'] + df['atms_crms_offsite'] + df['pos']
-)
-
-df['Channel_Efficiency'] = (
-    df['dc_pay_trns_at_pos_vol'] + df['cc_pay_trns_at_pos_vol']
-) / (df['pos'] + 1)
-
-df['Engagement_Tier'] = pd.qcut(
-    df['dc_pay_trns_online_vol'] + df['cc_pay_trns_online_vol'],
-    q=4,
-    labels=['Low','Medium','High','Very High']
-)
-
-print("Transformed dataset shape:", df.shape)
-
-## 🧹 Data Preprocessing
-
-```python
-import pandas as pd
-import numpy as np
-
-# Load dataset
-df = pd.read_csv("Decadal-Study-of-Indian-Banking-Channels-2015-2025.csv")
-
-# Handle missing values
-df = df.fillna(0)
-
-# Remove duplicates
-df = df.drop_duplicates()
-
-# Neutralize divide-by-zero artefacts
-df.replace([np.inf, -np.inf], np.nan, inplace=True)
-df = df.fillna(0)
-
-# Convert date column
-df['date'] = pd.to_datetime(df['date'], errors='coerce')
-
+Dataset becomes analysis‑ready for EDA, visualization, and business recommendations.
