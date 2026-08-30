@@ -175,96 +175,16 @@ Screen for financial risk exposure in banks expanding digital services, ensuring
 
 ## 🧹 Task 2: Data Wrangling  
 
-### 🧹 Data Preprocessing & 🧩 Data Transformation  
-This stage ensures the dataset is cleaned, structured, and transformed into analysis‑ready formats.  
-Steps include handling missing values, removing duplicates, correcting divide‑by‑zero artefacts, converting floats to integers, and deriving new analytical features.  
+## 🧹 Data Wrangling  
 
----
+Steps to clean and prepare RBI datasets for analysis:  
+- Handle missing values → `fillna(0)`  
+- Remove duplicates → `drop_duplicates()`  
+- Replace infinite values → `replace([np.inf, -np.inf], np.nan)`  
+- Neutralize divide‑by‑zero artefacts → `fillna(0)`  
+- Convert date column → `pd.to_datetime()`  
 
-## 🧹 Data Preprocessing
-
-# Handle missing values
-df = df.fillna(0)
-
-# Remove duplicates
-df = df.drop_duplicates()
-
-# Replace infinite values with NaN
-df.replace([np.inf, -np.inf], np.nan, inplace=True)
-
-# Neutralize divide-by-zero artefacts
-df = df.fillna(0)
-
-# Convert date column to datetime
-df['date'] = pd.to_datetime(df['date'], errors='coerce')
-
-
-### 📥 Load Dataset
-
-import pandas as pd
-import numpy as np
-
-df = pd.read_csv("Decadal-Study-of-Indian-Banking-Channels-2015-2025.csv")
-
-
-# 🧹 Data Preprocessing
-df = df.fillna(0)                # Handle missing values
-df = df.drop_duplicates()        # Remove duplicates
-df.replace([np.inf, -np.inf], np.nan, inplace=True)
-df = df.fillna(0)                # Neutralize divide-by-zero artefacts
-df['date'] = pd.to_datetime(df['date'], errors='coerce')  # Convert date column
-
-🧩 Task 2: Data Transformation
-## 🧩 Task 2: Data Transformation  
-
-This stage derives **new analytical features** from raw RBI datasets to enable deeper insights into banking infrastructure, customer behavior, and risk exposure.  
-
----
-
-### 🔧 Transformation Steps
-
-**1. Total Physical ATM Count**  
-
-df['total_atms'] = df['atms_crms_onsite'] + df['atms_crms_offsite']
-
-2. Onsite ATM Share (%)
-df['onsite_atm_share_pct'] = (
-    (df['atms_crms_onsite'] / df['total_atms']) * 100
-).replace([np.inf], np.nan).fillna(0)
-
-3. Offsite ATM Share (%)
-df['offsite_atm_share_pct'] = (
-    (df['atms_crms_offsite'] / df['total_atms']) * 100
-).replace([np.inf], np.nan).fillna(0)
-
-4. ATM Workload / Stress Level
-atm_total_vol = df["dc_cash_withdraw_atm_vol"] + df["cc_cash_withdraw_atm_vol"]
-df["trans_per_atm"] = (atm_total_vol / df["total_atms"]).replace([np.inf], np.nan).fillna(0)
-
-💳 Debit Card Channel‑wise Average Ticket Size
-df["dc_pos_avg"] = (df["dc_pay_trns_at_pos_val"] / df["dc_pay_trns_at_pos_vol"]).replace([np.inf], np.nan).fillna(0)
-df["dc_online_avg"] = (df["dc_pay_trns_online_val"] / df["dc_pay_trns_online_vol"]).replace([np.inf], np.nan).fillna(0)
-
-💳 Credit Card Channel‑wise Average Ticket Size
-df["cc_pos_avg"] = (df["cc_pay_trns_at_pos_val"] / df["cc_pay_trns_at_pos_vol"]).replace([np.inf], np.nan).fillna(0)
-df["cc_online_avg"] = (df["cc_pay_trns_online_val"] / df["cc_pay_trns_online_vol"]).replace([np.inf], np.nan).fillna(0)
-
-📊 Fair Comparison & Customer Loyalty (Normalized Metrics per Active Card)
-dc_tot_val = df["dc_pay_trns_at_pos_val"] + df["dc_pay_trns_online_val"] + df["dc_pay_trns_other_val"] + df["dc_cash_withdraw_atm_val"] + df["dc_cash_withdraw_pos_val"]
-dc_tot_vol = df["dc_pay_trns_at_pos_vol"] + df["dc_pay_trns_online_vol"] + df["dc_pay_trns_other_vol"] + df["dc_cash_withdraw_atm_vol"] + df["dc_cash_withdraw_pos_vol"]
-
-cc_tot_val = df["cc_pay_trns_at_pos_val"] + df["cc_pay_trns_online_val"] + df["cc_pay_trns_other_val"] + df["cc_cash_withdraw_atm_val"]
-cc_tot_vol = df["cc_pay_trns_at_pos_vol"] + df["cc_pay_trns_online_vol"] + df["cc_pay_trns_other_vol"] + df["cc_cash_withdraw_atm_vol"]
-
-df["monthly_spend_per_debit_card"] = (dc_tot_val / df["debit_cards"]).replace([np.inf], np.nan).fillna(0)
-df["monthly_spend_per_credit_card"] = (cc_tot_val / df["credit_cards"]).replace([np.inf], np.nan).fillna(0)
-df["monthly_trans_per_debit_card"] = (dc_tot_vol / df["debit_cards"]).replace([np.inf], np.nan).fillna(0)
-df["monthly_trans_per_credit_card"] = (cc_tot_vol / df["credit_cards"]).replace([np.inf], np.nan).fillna(0)
-
-🏧 Average Withdrawal Amount per ATM Transaction
-df["cc_atm_avg_withdrawal_amt"] = (
-    df["cc_cash_withdraw_atm_val"] / df["cc_cash_withdraw_atm_vol"]
-).replace([np.inf], np.nan).fillna(0)
+👉 Purpose: Ensures dataset is **clean, consistent, and analysis‑ready**.  
 
 
 🚀 Future Engineering Columns
