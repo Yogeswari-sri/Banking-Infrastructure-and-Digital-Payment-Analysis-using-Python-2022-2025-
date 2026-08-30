@@ -266,4 +266,37 @@ Confirms digital adoption unevenness across banks.
 
 Provides baseline for predictive and prescriptive analytics.
 
+## 📐 Skewness & Kurtosis (Project Context)
+These measures describe the shape and balance of banking channel distributions. They highlight whether customer spending and transactions are evenly spread or dominated by extreme outliers.
+## 🔹 Skewness → Symmetry / Tilt
+- **Definition:** Shows whether data is balanced or tilted.  
+- **Positive skew:** Right‑heavy → many small spends, few extreme large spends.  
+- **Negative skew:** Left‑heavy → many large spends, few very small spends.  
+- **Zero skew:** Perfectly balanced (mean ≈ median).  
+
+👉 Project Insight:  
+- **Debit card usage** → often **positive skew** → majority of customers transact small amounts, few heavy spenders dominate.  
+- **Credit card usage** → closer to **zero skew** → balanced adoption across active users.  
+
+---
+
+## 🔹 Kurtosis → Outlier Impact / Tail Heaviness
+- **Definition:** Shows whether extreme outliers dominate the distribution.  
+- **High kurtosis:** Heavy tails → few extreme outliers drive results.  
+- **Low kurtosis:** Flat tails → balanced, no extreme spikes.  
+- **Normal kurtosis (~3):** Near‑normal distribution.  
+
+👉 Project Insight:  
+- **Debit card spend** → **high kurtosis** → few heavy users drive overall spend.  
+- **Credit card spend** → **near‑normal kurtosis** → balanced, less outlier domination.  
+- **Digital vs Real ratio** → skewed towards branch‑heavy public banks, while private banks show balanced kurtosis with hybrid adoption. 
+
+## ✅ Summary and Key Insights
+
+Skewness tells tilt → whether spending is dominated by small vs large transactions.
+
+Kurtosis tells outlier impact → whether extreme users dominate or usage is balanced.
+
+Together, they explain customer loyalty, adoption imbalance, and risk concentration in Indian banking channels.
+
 
