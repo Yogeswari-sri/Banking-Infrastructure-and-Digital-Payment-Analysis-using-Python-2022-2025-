@@ -444,7 +444,6 @@ Compare Digital vs Real Ratio across bank categories.
 Spot extremes (too digital vs too branch‑heavy) and highlight hybrid models.
 
 ## Visual:
-<img width="805" height="481" alt="image" src="https://github.com/user-attachments/assets/af44d4a9-0f29-486e-932c-bb56745548a4" />
 <img width="543" height="399" alt="image" src="https://github.com/user-attachments/assets/0dfdddef-dcd8-4985-9384-380adf32fded" />
 
 ### Chart Interpretation (Digital vs Real Ratio)
@@ -465,8 +464,6 @@ Public Banks → Branch‑oriented, lagging in digital modernization.
 Payment Banks → Weak digital adoption, almost fully physical.
 
 Foreign Banks → Nearly all branch‑based, minimal digital.
-
-👉 Strategic Takeaway: The healthiest model = hybrid balance → digital apps for convenience, branches for trust & inclusion.
 
 ## 4️⃣ Channel Smart Spending Efficiency
 ### 🎯 Goal: Assess which channel (ATM, POS, Bharat QR, UPI QR) delivers the highest ROI, and identify correlations between physical vs digital infrastructure to guide smarter asset allocation.
@@ -495,8 +492,6 @@ ATM Expansion → Onsite & Offsite ATMs grow together, supporting debit base but
 POS + Bharat QR Synergy → Moderate correlation, strongest ROI driver, boosts credit card adoption.
 
 UPI QR → Weak correlation, independent growth path, positioned as future digital driver.
-
-👉 Strategic Takeaway → Balance infra for stability, invest in POS + QR for immediate profit, prepare UPI QR for long‑term adoption.
 
 ## 5️⃣ Maintenance & ATM Stress (Onsite vs Offsite Combined)
 ### 🎯 Goal: Track ATM workload trends and identify which locations (onsite vs offsite) need more frequent maintenance, ensuring cost‑efficient infrastructure management.
@@ -527,8 +522,6 @@ Onsite ATMs → Higher workload, require quarterly maintenance.
 Offsite ATMs → Lower stress, can be maintained half‑yearly.
 
 Overall Stress Line (2.4%) → ATM infra underutilized, no urgent upgrades needed.
-
-👉 Strategic Takeaway → Focus maintenance budget on onsite ATMs, optimize offsite checks for cost efficiency.
 
 ## 6️⃣ Bank Market (Debit vs Credit Spend)
 ## 🎯 Goal: Compare average debit vs credit card spend across bank categories, spot leaders/laggards, and highlight uneven adoption patterns.
@@ -561,8 +554,6 @@ Public Sector Banks → Debit (6.2), Credit (0.9) → wide reach but weak credit
 Small Finance Banks → Debit (2.6), Credit (0.5) → lowest among mainstream, inclusion‑focused.
 
 Payment Banks → Debit (0.0), Credit (0.1) → negligible spend, weakest adoption.
-
-👉 Takeaway: Debit spend drives adoption in India, but credit card penetration is uneven — modernization needed in public & payment banks.
 
 ## 7️⃣ Customer Loyalty Profiling
 ### 🎯 Goal: Identify which banks keep customers most active and engaged by analyzing debit and credit card usage patterns.
@@ -597,8 +588,6 @@ Public Sector Banks (SBI, Union, IDBI) → Lower per‑card activity, weaker cus
 
 Payment Banks → Minimal ATM reliance, overall transaction volume still low.
 
-👉 Takeaway: Loyalty is strongest in Private banks, moderate in Foreign/Regional, weakest in Public & Payment banks.
-
 
 ## 8️⃣ Risk & Safety Management
 ### 🎯 Goal: Screen for financial risk exposure in banks expanding digital services, ensuring growth is balanced with transaction security and fraud prevention.
@@ -629,10 +618,7 @@ American Express → Very high withdrawals (₹4,000–₹5,000), few transactio
 
 Bandhan Bank → Low withdrawals (₹500–₹700), moderate transactions (80–120) → inclusion effort but uneven adoption.
 
-👉 Takeaway: Risk concentration is highest in cash‑heavy banks, while digital‑focused banks manage exposure better.
-
 -----
-🏗️ Four‑Layer Analytics Framework
 ## 🏗️ Four‑Layer Analytics Framework  
 
 The project follows a **four‑layer analytics maturity model** to ensure structured insights:
@@ -677,7 +663,6 @@ Predictive: Hybrid + UPI QR will shape future adoption.
 Prescriptive: Actionable roadmap → loyalty rewards, modernization, ROI drivers, infra balance.
 
 ----
-📌 Key Findings — Consolidated
 ## 📌 Key Findings — Consolidated
 This section summarizes the most important insights derived from the analysis of Indian banking infrastructure and digital payment adoption (2022–2025).
 
@@ -718,8 +703,6 @@ Customer loyalty → strongest in Private/Foreign banks, modernization needed in
 Risk management → cash‑heavy banks must diversify into digital channels.
 
 -----
-💼 Business Recommendations
-
 ## 💼 Business Recommendations  
 
 Based on the consolidated findings, the following strategic actions are recommended:
@@ -756,11 +739,7 @@ Customer Engagement → Loyalty programs + modernization critical for retention.
 Risk Management → Cash‑heavy banks must diversify into digital channels.
 
 -----
-⚠️ Limitations of the Study
-## ⚠️ Limitations of the Study
-
 ## ⚠️ Limitations of the Study  
-
 While the analysis provides valuable insights, certain limitations exist:
 
 1. **Data Availability**  
@@ -804,8 +783,6 @@ This project demonstrates how **Indian banking infrastructure and digital paymen
 - **Recruiter Relevance** → Showcases end‑to‑end workflow: data preprocessing → feature engineering → visualization → strategic recommendations.  
 
 ---
-
-📁 Project Files & Access
 ## 📁 Project Files & Access  
 
 The repository is organized for **easy navigation and reproducibility**:
