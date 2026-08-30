@@ -200,7 +200,7 @@ df['date'] = pd.to_datetime(df['date'], errors='coerce')
 
 
 ### 📥 Load Dataset
-```python
+
 import pandas as pd
 import numpy as np
 
