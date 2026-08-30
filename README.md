@@ -230,6 +230,10 @@ Benchmarks channel risk & spending behavior (POS vs Online vs ATM).
 
 ## Task2: EDA
 
+### 📊 Exploratory Data Analysis (EDA) & Visualization
+
+Visualizations help in understanding customer spending, digital adoption, and infrastructure efficiency. They also reveal skewness and kurtosis patterns in the dataset.
+
 📊 Statistical Profiling
 This stage summarizes the dataset using descriptive statistics to understand distribution, variance, and skewness across banking metrics.
 
@@ -298,5 +302,49 @@ Skewness tells tilt → whether spending is dominated by small vs large transact
 Kurtosis tells outlier impact → whether extreme users dominate or usage is balanced.
 
 Together, they explain customer loyalty, adoption imbalance, and risk concentration in Indian banking channels.
+
+## 📊 Visualization Objectives
+
+Visualizations are designed to translate analytical objectives into clear, actionable insights.
+
+## Objective 1 — Fair Comparison Using Active Cards
+🎯 Visualization: **Barplot / Stacked Bar**   
+- Compare banks by total active debit vs credit cards  
+- Highlights real customer engagement vs issued cards  
+
+## Objective 2 — Bank Category Growth Trends
+🎯 Visualization: **Line Chart / Area Plot**  
+- Track year‑wise active card growth across bank categories  
+- Shows adoption patterns and retention challenges  
+
+## Objective 3 — Maintenance & Infrastructure Optimization
+🎯 Visualization: **Heatmap / Seasonal Line Plot**  
+- ATM workload stress index (transactions per ATM)  
+- Seasonal spikes → best time for maintenance  
+
+## Objective 4 — Real vs Digital Channel Balance
+🎯 Visualization: **Scatter Plot / Ratio Barplot**  
+- Digital vs Real ratio (UPI/QR vs ATM/POS)  
+- Optimal mix between physical and digital channels  
+
+## Objective 5 — Channel Smart Spending Efficiency
+🎯 Visualization: **Correlation Heatmap / Bubble Chart**  
+- ROI efficiency across ATM, POS, Bharat QR, UPI QR  
+- Identifies channels with highest profitability  
+
+## Objective 6 — Market Benchmarking
+🎯 Visualization: **Benchmark Barplot / Radar Chart**  
+- Compare each bank’s performance vs market average  
+- Leaders vs laggards in digital adoption  
+
+## Objective 7 — Customer Loyalty Profiling
+🎯 Visualization: **Histogram / Boxplot**  
+- Monthly spend & transaction frequency per active card  
+- Loyalty tiers (Low, Medium, High, Very High)  
+
+## Objective 8 — Risk & Safety Management
+🎯 Visualization: **Pair Plot / Risk Matrix**  
+- Cash vs digital usage → fraud exposure  
+- Balanced adoption ensures safer growth  
 
 
