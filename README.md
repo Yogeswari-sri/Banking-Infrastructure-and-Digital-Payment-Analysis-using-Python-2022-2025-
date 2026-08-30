@@ -195,7 +195,7 @@ This section provides a clear description of each column in the Banking Infrastr
 -----
 
 ## Task 2: Data Wrangling  
-## 🧹 Data Preprocessing  
+## Data Preprocessing  
 
 Steps applied to clean and prepare the dataset before feature engineering:
 
