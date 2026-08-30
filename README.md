@@ -791,7 +791,7 @@ The repository is organized for **easy navigation and reproducibility**:
 ---
 
 ### 🔧 How to Access & Run
-1. Clone the repository → `git clone https://github.com/YogeswariK/Banking-Analytics`  
+1. Clone the repository → `git clone https://github.com/Yogeswari-sri/Banking-Infrastructure-and-Digital-Payment-Analysis-using-Python-2022-2025-`  
 2. Install dependencies → `pip install -r requirements.txt`  
 3. Open Jupyter Notebook → `jupyter notebook`  
 4. Run notebooks in sequence:  
