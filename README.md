@@ -187,7 +187,7 @@ df["monthly_trans_per_credit_card"] = (cc_tot_vol / df["credit_cards"]).replace(
 # Average withdrawal amount per ATM transaction
 df["cc_atm_avg_withdrawal_amt"] = (df["cc_cash_withdraw_atm_val"] / df["cc_cash_withdraw_atm_vol"]).replace([np.inf], np.nan).fillna(0)
 
-🚀 Future Engineering Columns
+## 🚀 Future Engineering Columns
 
 These engineered features capture customer behavior, infrastructure efficiency, and digital adoption trends. They will be used for loyalty analysis, benchmarking, and risk profiling.
 ## 1. Credit vs Debit Card Usage
