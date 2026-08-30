@@ -49,10 +49,8 @@ The study demonstrates how **Python (Pandas, NumPy, Matplotlib, Seaborn)** can b
 
 ---
 
-## 🌐 Industry Context
-
+## Industry Context
 ## 🌐 Industry Context  
-
 The Indian banking sector (2022–2025) is undergoing rapid transformation:  
 - **Digital Payments Boom** → UPI, QR, and online channels driving transaction growth.  
 - **ATM & POS Infrastructure** → Still critical for cash‑based segments, but facing stress.  
