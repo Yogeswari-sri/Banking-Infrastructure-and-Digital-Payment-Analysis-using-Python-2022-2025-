@@ -1,4 +1,11 @@
-# 📊 Banking Infrastructure & Digital Payment Analysis  
+# 🏦 Banking Infrastructure & Digital Payment Analysis (2022–2025)  
+### 📊 Python + Power BI Capstone Project  
+
+👩‍💻 Prepared by: **Yogeswari K**  
+🎓 Course: Programme in AI Driven Data Analytics, Entri  
+
+---
+
 ### 🚀 RBI Dataset • 2022–2025 • End‑to‑End Analytics  
 
 🔎 **Descriptive → Diagnostic → Predictive → Prescriptive**  
@@ -16,17 +23,6 @@
 
 ✨ *Data → Insights → Strategy → Impact* ✨
 
-
-<div align="center">
-
-# 🏦 Banking Infrastructure & Digital Payment Analysis (2022–2025)
-
-📊 **Python + Power BI Capstone Project**
-
-👩‍💻 Prepared by: **Yogeswari K**  
-🎓 Course: Programme in AI Driven Data Analytics, Entri  
-
-</div>
 
 ---
 
