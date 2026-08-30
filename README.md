@@ -440,6 +440,8 @@ Compare Digital vs Real Ratio across bank categories.
 Spot extremes (too digital vs too branch‑heavy) and highlight hybrid models.
 
 ## Visual:
+<img width="834" height="505" alt="image" src="https://github.com/user-attachments/assets/23d7e6a4-3791-47fa-aef2-dd79d1fc20ec" />
+
 <img width="543" height="399" alt="image" src="https://github.com/user-attachments/assets/0dfdddef-dcd8-4985-9384-380adf32fded" />
 
 ### Chart Interpretation (Digital vs Real Ratio)
@@ -562,7 +564,6 @@ Group banks by category (Public, Private, Foreign, Small Finance, Payment).
 Plot average debit + credit card transactions per category.
 
 Add a red benchmark line to compare loyalty across categories.
-<img width="1003" height="196" alt="image" src="https://github.com/user-attachments/assets/a6a5979a-63a3-446d-bfed-cb3aafff5b28" />
 <img width="1197" height="786" alt="image" src="https://github.com/user-attachments/assets/f4d5a834-0515-443e-9f59-dbc70b65ceed" />
 
 ### Chart Interpretation (Customer Loyalty by Bank Category)
