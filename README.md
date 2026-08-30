@@ -98,66 +98,33 @@ This section provides a clear description of each column in the Banking Infrastr
 
 -----
 
-🎯 Analytical Objectives & Insights
-This section highlights the eight core objectives of the Banking Infrastructure & Digital Payment Analysis project, along with key business insights derived from the dataset.
-## Objective 1 — Fair Comparison Using Active Cards
-- Compare banks based on active card usage, not just issued cards  
-- Public banks lead adoption with highest active card counts  
-- Private banks competitive in urban segments  
-- Payment banks weakest in retention  
+🎯 Project Objectives
 
----
+This section highlights the eight core objectives of the Banking Infrastructure & Digital Payment Analysis project, along with key business insights derived from the dataset.
+
+## Objective 1 — Fair Comparison Using Active Cards
+Develop a framework to compare banks based on total active cards rather than just issued cards, ensuring performance reflects real customer engagement.
 
 ## Objective 2 — Bank Category Growth Trends
-- Year‑wise active card growth analysis (2022–2025)  
-- SBI consistently ranked best, peaking in 2023  
-- Decline in 2024–25 highlights retention challenges  
+Track year‑wise changes in active cards across public, private, foreign, and small finance banks to highlight adoption patterns.
 
----
+## Objective 3 — Maintenance & Infrastructure Optimization
+Identify the best time for banks to upgrade ATMs and branches by analyzing seasonal transaction spikes and downtime cycles.
 
-## Objective 3 — Real vs Digital Channel Balance
-- Digital vs branch ratio across categories  
-- Private banks show healthy hybrid mix  
-- Public banks slower digital shift  
-- Small Finance banks extremely digital, Payment banks almost fully physical  
+## Objective 4 — Real vs Digital Channel Balance
+Evaluate the optimal mix between physical branches/ATMs and digital channels (apps, POS, UPI) to maximize efficiency and customer convenience.
 
----
+## Objective 5 — Channel Smart Spending Efficiency
+Assess which channel (ATM, POS, QR, UPI) delivers the highest return on investment for banks, guiding smarter asset allocation.
 
-## Objective 4 — Channel Smart Spending Efficiency
-- Correlation analysis between ATMs, POS, Bharat QR, UPI QR  
-- POS + Bharat QR synergy → strongest ROI driver  
-- UPI QR evolving independently as future digital engine  
-
----
-
-## Objective 5 — Maintenance & ATM Stress
-- Onsite ATMs carry higher maintenance load → quarterly checks  
-- Offsite ATMs under‑utilized → half‑yearly checks sufficient  
-- Overall ATM stress line ~2.4% → infra under‑utilized  
-
----
-
-## Objective 6 — Bank Market Benchmarking
-- Private banks dominate debit spend  
-- Foreign banks balanced debit + credit spend  
-- Public banks lag in credit adoption  
-- Payment banks negligible spend  
-
----
+## Objective 6 — Market Benchmarking
+Compare each bank’s performance against the overall market average, identifying leaders and laggards in digital adoption.
 
 ## Objective 7 — Customer Loyalty Profiling
-- Private sector banks show strongest loyalty (HDFC, ICICI, Axis)  
-- Foreign banks premium but concentrated risk  
-- Public banks weaker engagement  
-- Payment banks lowest retention  
-
----
+Measure repeat usage and active card retention to evaluate customer loyalty and long‑term engagement.
 
 ## Objective 8 — Risk & Safety Management
-- Cash‑heavy banks face concentrated risk  
-- Airtel Payments Bank safest with digital focus  
-- American Express → high‑value withdrawals, concentrated risk  
-- Balanced adoption in Au Small Finance & Axis Bank  
+Screen for financial risk exposure in banks expanding digital services, ensuring growth is balanced with transaction security and fraud prevention.
 
 
 ## Task2: Data Wrangling
