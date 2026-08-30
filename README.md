@@ -38,7 +38,7 @@ This project applies a complete Python data‑analytics pipeline to Banking tran
 ## 📂 Dataset
 | Details   | Value |
 |-----------|-------|
-| Dataset   | Decadal Study of Indian Banking Channels (2015–2025) |
+| Dataset   | Banking Infrastructure & Digital Payment Analysis (2022–2025) |
 | Source    | RBI Bankwise ATM & POS Transactions |
 | Records   | ~350 MB CSV |
 | Features  | 30+ Columns (ATM, POS, QR, UPI, Debit/Credit transactions) |
