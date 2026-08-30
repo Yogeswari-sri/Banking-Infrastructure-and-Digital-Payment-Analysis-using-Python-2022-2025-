@@ -809,8 +809,8 @@ For queries, collaboration, or feedback:
 - **Role:** Aspiring Data Analyst  
 - **Location:** Hosur, Tamil Nadu, India  
 - **Email:** yogeswari.k@example.com  
-- **LinkedIn:** [linkedin.com/in/yogeswarik](https://linkedin.com/in/yogeswarik)  
-- **GitHub:** [github.com/YogeswariK](https://github.com/YogeswariK)  
+- **LinkedIn:** [linkedin.com/in/yogeswarik]([https://www.linkedin.com/in/yogeswarikadarkarai/]) 
+- **GitHub:** [github.com/YogeswariK](https://github.com/Yogeswari-sri?tab=repositories)
 
 ---
 
