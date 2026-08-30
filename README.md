@@ -247,12 +247,13 @@ This stage focuses on transforming raw banking transaction data into derived ana
 - Channel risk benchmarking.
 
 -----
+## 🔍 Exploratory Data Analysis (EDA)
 
-### 📊 Exploratory Data Analysis (EDA) & Visualization
+## Task3:🔍 Exploratory Data Analysis (EDA)
 
 Visualizations help in understanding customer spending, digital adoption, and infrastructure efficiency. They also reveal skewness and kurtosis patterns in the dataset.
 
-📊 Statistical Profiling
+## 📊 Statistical Profiling
 This stage summarizes the dataset using descriptive statistics to understand distribution, variance, and skewness across banking metrics.
 
 ## Key Metrics Analyzed
@@ -280,7 +281,7 @@ This stage summarizes the dataset using descriptive statistics to understand dis
   <img width="1050" height="613" alt="1" src="https://github.com/user-attachments/assets/25231c01-0fa6-46a3-adbb-9301fcd95c5e" />
 
 
-✅ Highlights:
+## ✅ Highlights:
 
 Statistical profiling reveals outlier‑driven distributions.
 
@@ -296,7 +297,7 @@ These measures describe the shape and balance of banking channel distributions. 
 - **Negative skew:** Left‑heavy → many large spends, few very small spends.  
 - **Zero skew:** Perfectly balanced (mean ≈ median).  
 
-👉 Project Insight:  
+## 👉 Project Insight:  
 - **Debit card usage** → often **positive skew** → majority of customers transact small amounts, few heavy spenders dominate.  
 - **Credit card usage** → closer to **zero skew** → balanced adoption across active users.  
 
@@ -322,10 +323,12 @@ Kurtosis tells outlier impact → whether extreme users dominate or usage is bal
 Together, they explain customer loyalty, adoption imbalance, and risk concentration in Indian banking channels.
 
 ## 📊 Visualization Objectives
+
 Visualizations are designed to translate analytical objectives into clear, actionable insights.
 
 ## 1️⃣ Fair Comparison Using Active Cards
-🎯 Goal: Compare banks fairly by measuring active card usage instead of just issued cards, ensuring performance reflects real customer engagement.
+
+## 🎯 Goal: Compare banks fairly by measuring active card usage instead of just issued cards, ensuring performance reflects real customer engagement.
 
 ## 📈 Visualization
 
