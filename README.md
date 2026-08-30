@@ -47,7 +47,7 @@ This project applies a complete Python data‑analytics pipeline to RBI transact
 
 ---
 
-<div align="center">
+<div align="left">
 
 ## 🛠 Tools & Technologies
 
@@ -59,6 +59,43 @@ This project applies a complete Python data‑analytics pipeline to RBI transact
 </div>
 
 ---
+
+📂 Column Dictionary
+This section provides a clear description of each column in the Banking Infrastructure & Digital Payment Analysis (2022–2025) dataset. It helps recruiters and reviewers quickly understand the dataset structure and the meaning of each field.
+| Column | Description |
+|--------|-------------|
+| id | Unique identifier for each bank record |
+| date | Reporting date (month/year) of transaction data |
+| bank_category | Classification of bank (Public, Private, Foreign, etc.) |
+| bank_name | Official name of the bank |
+| atms_crms_onsite | Number of onsite ATMs/CRMs within branch premises |
+| atms_crms_offsite | Number of offsite ATMs/CRMs outside branch premises |
+| pos | Total POS terminals deployed by the bank |
+| micro_atms | Count of micro‑ATMs used for rural transactions |
+| bharat_qr | Number of Bharat QR codes issued or active |
+| upi_qr | Number of UPI QR codes issued or active |
+| credit_cards | Total credit cards issued by the bank |
+| debit_cards | Total debit cards issued by the bank |
+| cc_pay_trns_at_pos_vol | Volume of credit card transactions at POS terminals |
+| cc_pay_trns_at_pos_val | Value of credit card transactions at POS terminals |
+| cc_pay_trns_online_vol | Volume of credit card online transactions |
+| cc_pay_trns_online_val | Value of credit card online transactions |
+| cc_pay_trns_other_vol | Volume of credit card transactions through other channels |
+| cc_pay_trns_other_val | Value of credit card transactions through other channels |
+| cc_cash_withdraw_atm_val | Value of credit card cash withdrawals at ATMs |
+| cc_cash_withdraw_atm_vol | Volume of credit card cash withdrawals at ATMs |
+| dc_pay_trns_at_pos_vol | Volume of debit card transactions at POS terminals |
+| dc_pay_trns_at_pos_val | Value of debit card transactions at POS terminals |
+| dc_pay_trns_online_vol | Volume of debit card online transactions |
+| dc_pay_trns_online_val | Value of debit card online transactions |
+| dc_pay_trns_other_vol | Volume of debit card transactions through other channels |
+| dc_pay_trns_other_val | Value of debit card transactions through other channels |
+| dc_cash_withdraw_atm_val | Value of debit card cash withdrawals at ATMs |
+| dc_cash_withdraw_atm_vol | Volume of debit card cash withdrawals at ATMs |
+| dc_cash_withdraw_pos_val | Value of debit card cash withdrawals at POS terminals |
+| dc_cash_withdraw_pos_vol | Volume of debit card cash withdrawals at POS terminals |
+
+-----
 
 ## 🧹 Data Preprocessing
 ```python
