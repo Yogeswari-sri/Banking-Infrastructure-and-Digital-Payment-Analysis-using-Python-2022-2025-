@@ -830,5 +830,26 @@ The repository is organized for **easy navigation and reproducibility**:
    - `04_findings_recommendations.ipynb`  
 
 ---
+📬 Contact & Usage
+## 📬 Contact & Usage  
+
+For queries, collaboration, or feedback:  
+- **Author:** Yogeswari K  
+- **Role:** Aspiring Data Analyst  
+- **Location:** Hosur, Tamil Nadu, India  
+- **Email:** yogeswari.k@example.com  
+- **LinkedIn:** [linkedin.com/in/yogeswarik](https://linkedin.com/in/yogeswarik)  
+- **GitHub:** [github.com/YogeswariK](https://github.com/YogeswariK)  
+
+---
+
+### 🤝 How Recruiters Can Use This Repo
+- Review **project workflow** (data → preprocessing → features → visualization → insights).  
+- Assess **technical skills** (Python, Pandas, Seaborn, Power BI).  
+- Evaluate **business impact** (recommendations for banking infrastructure & digital adoption).  
+- Validate **portfolio readiness** for data analyst roles.  
+
+---
+
 
 
