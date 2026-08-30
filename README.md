@@ -777,29 +777,24 @@ This project demonstrates how **Indian banking infrastructure and digital paymen
 - **Recruiter Relevance** → Showcases end‑to‑end workflow: data preprocessing → feature engineering → visualization → strategic recommendations.  
 
 ---
+
 ## Project Files & Access  
 
-The repository is organized for **easy navigation and reproducibility**:
-
-- **/data/** → Raw RBI datasets (CSV/Excel format)  
-- **/notebooks/** → Jupyter notebooks for preprocessing, feature engineering, and visualization  
-- **/scripts/** → Python scripts for reusable functions (wrangling, plotting)  
-- **/outputs/** → Generated plots, charts, and summary tables  
-- **README.md** → Project overview, objectives, and navigation  
-- **requirements.txt** → Python dependencies for environment setup  
+- Raw Dataset  
+- Final Cleaned Dataset  
+- Google Colab Notebook  
+- Python Source Code  
+- Project Report
 
 ---
 
 ### 🔧 How to Access & Run
-1. Clone the repository → `git clone https://github.com/Yogeswari-sri/Banking-Infrastructure-and-Digital-Payment-Analysis-using-Python-2022-2025-`  
-2. Install dependencies → `pip install -r requirements.txt`  
-3. Open Jupyter Notebook → `jupyter notebook`  
-4. Run notebooks in sequence:  
-   - `01_preprocessing.ipynb`  
-   - `02_feature_engineering.ipynb`  
-   - `03_visualizations.ipynb`  
-   - `04_findings_recommendations.ipynb`  
-
+## How to Access in Google Colab
+1. Open Google Colab → https://colab.research.google.com  
+2. Upload the notebook file from `/notebooks/` (e.g., 01_preprocessing.ipynb)  
+3. Make sure dependencies are installed:  
+   ```bash
+   pip install -r requirements.txt
 ---
 ## Contact & Usage
 ## 📬 Contact & Usage  
