@@ -21,40 +21,43 @@
 
 ---
 
-✨ *Data → Insights → Strategy → Impact* ✨
+## 📌 Executive Summary
+This project analyzes Indian banking infrastructure and digital payment adoption between 2022–2025 using RBI datasets.  
+It benchmarks banks on **ATM stress, POS + QR ROI, UPI QR adoption, customer loyalty, and risk exposure**, delivering recruiter‑friendly insights and recommendations.  
 
+The study demonstrates how **Python (Pandas, NumPy, Matplotlib, Seaborn)** can be applied to transform raw datasets into **strategic insights** for banks, policymakers, and regulators.  
 
 ---
 
-🌐 Portfolio Project Description
+## 🌐 Portfolio Project Description
 ### Banking Infrastructure & Digital Payment Analysis (2022–2025)
 
 📊 A comprehensive analytics project built on RBI datasets to evaluate **banking infrastructure, digital adoption, customer loyalty, and risk management**.  
 
-🔎 Key Highlights:
-- Designed **8 visualization objectives** (barplots, line charts, scatter plots, heatmaps, pair plots) to translate raw data into actionable insights.  
-- Built a **Four‑Layer Analytics Framework (Descriptive, Diagnostic, Predictive, Prescriptive)** to deliver strategic recommendations.  
-- Benchmarked banks on **active card engagement, digital vs physical balance, ROI drivers, loyalty profiling, and risk exposure**.  
-- Delivered **business recommendations** for modernization, loyalty programs, infra optimization, and digital adoption strategies.  
+🔎 **Key Highlights**
+- Designed 8 visualization objectives (barplots, line charts, scatter plots, heatmaps, pair plots) to translate raw data into actionable insights.  
+- Built a Four‑Layer Analytics Framework (Descriptive, Diagnostic, Predictive, Prescriptive) to deliver strategic recommendations.  
+- Benchmarked banks on active card engagement, digital vs physical balance, ROI drivers, loyalty profiling, and risk exposure.  
+- Delivered business recommendations for modernization, loyalty programs, infra optimization, and digital adoption strategies.  
 
-💡 Impact:
-- Showcases ability to **engineer features, design visualizations, and narrate insights** in a recruiter‑friendly format.  
-- Demonstrates **end‑to‑end analytics maturity** → from raw data preprocessing to strategic storytelling.  
-- Highlights **portfolio‑ready skills** in Python, SQL, Power BI, and Excel for real‑world banking analytics.  
-
-
-## 📌 Project Overview
-This project presents a **Python‑based exploratory, statistical, and business intelligence analysis** of Indian banking transactions and digital adoption trends between 2022–2025.  
-
-Workflow includes:
-- Data Cleaning & Preprocessing  
-- Exploratory Data Analysis (EDA)  
-- Feature Engineering  
-- Statistical Profiling  
-- Data Visualization (Python + Power BI)  
-- Business Insights & Recommendations  
+💡 **Impact**
+- Showcases ability to engineer features, design visualizations, and narrate insights in a recruiter‑friendly format.  
+- Demonstrates end‑to‑end analytics maturity → from raw data preprocessing to strategic storytelling.  
+- Highlights portfolio‑ready skills in Python, SQL, Power BI, and Excel for real‑world banking analytics.  
 
 ---
+
+## 📌 Project Overview
+This project presents a Python‑based exploratory, statistical, and business intelligence analysis of Indian banking transactions and digital adoption trends between 2022–2025.  
+
+**Workflow includes:**  
+- Data Cleaning & Preprocessing  
+- Feature Engineering (Active Cards, Stress Index, Digital Vs Real ROI Ratios)  
+- Visualization Objectives (ATM, POS, QR, UPI, Loyalty, Risk)  
+- Insights & Business Recommendations  
+- Four‑Layer Analytics Framework for strategic clarity  
+---
+
 ## Task1: Problem Statement & Business Understanding
 <div align="left">
 
@@ -67,27 +70,39 @@ This project applies a complete Python data‑analytics pipeline to Banking tran
 
 ---
 
-## 📂 Dataset
-| Details   | Value |
-|-----------|-------|
-| Dataset   | [Banking Infrastructure & Digital Payment Analysis (2022–2025)]([url](https://indiadataportal.com/p/reserve-bank-of-india/r/rbi-bankwise_atm_pos-in-mn-bx)) |
-| Source    | RBI Bankwise ATM & POS Transactions |
-| Records   | ~350 MB CSV |
-| Features  | 30+ Columns (ATM, POS, QR, UPI, Debit/Credit transactions) |
-| Storage   | GitHub + Git LFS |
-| Environment | Google Colab / Jupyter Notebook |
+## 📂 Dataset Description
+
+- **Source:** Reserve Bank of India (RBI) published datasets (2022–2025)  
+- **Scope:** Banking infrastructure, card usage, ATM/POS terminals, QR/UPI transactions, debit & credit spending patterns.  
+- **Granularity:** Yearly + quarterly transaction volumes, balances, and infrastructure counts.  
+- **Key Features Extracted:**  
+  - Active Cards (Debit & Credit)  
+  - ATM & POS terminal counts  
+  - QR & UPI transaction volumes  
+  - Digital vs Physical balance ratios  
+  - ROI drivers (POS + QR efficiency)  
+  - ATM Stress Index (maintenance vs usage)  
+  - Customer Loyalty profiling metrics  
+  - Risk & Safety indicators (fraud exposure, infra gaps)
+
+  💡 This dataset provides a **comprehensive view of India’s digital payment ecosystem**, enabling analysis of **growth trends, efficiency, loyalty, and risk management** across banks.
 
 ---
 
 <div align="left">
 
-## 🛠 Tools & Technologies
+## 🛠️ Tools & Technologies
 
-**Python** (Pandas, NumPy, Matplotlib, Seaborn)  
-**Power BI** (Interactive dashboards)  
-**Google Colab** (Analysis environment)  
-**GitHub + Git LFS** (Version control & dataset hosting)
+- **Programming Language:** Python  
+- **Libraries Used:**  
+  - **Pandas** → Data cleaning & preprocessing  
+  - **NumPy** → Numerical computations  
+  - **Matplotlib & Seaborn** → Data visualization (barplots, line charts, scatter plots, heatmaps, pair plots)  
 
+- **Environment:** Jupyter Notebook  
+- **Version Control:** GitHub (for project documentation & portfolio showcase)  
+
+---
 </div>
 
 ---
