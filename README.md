@@ -1,4 +1,3 @@
-🎯 GitHub Repo Intro Banner
 # 📊 Banking Infrastructure & Digital Payment Analysis  
 ### 🚀 RBI Dataset • 2022–2025 • End‑to‑End Analytics  
 
@@ -30,6 +29,23 @@
 </div>
 
 ---
+
+🌐 Portfolio Project Description
+### Banking Infrastructure & Digital Payment Analysis (2022–2025)
+
+📊 A comprehensive analytics project built on RBI datasets to evaluate **banking infrastructure, digital adoption, customer loyalty, and risk management**.  
+
+🔎 Key Highlights:
+- Designed **8 visualization objectives** (barplots, line charts, scatter plots, heatmaps, pair plots) to translate raw data into actionable insights.  
+- Built a **Four‑Layer Analytics Framework (Descriptive, Diagnostic, Predictive, Prescriptive)** to deliver strategic recommendations.  
+- Benchmarked banks on **active card engagement, digital vs physical balance, ROI drivers, loyalty profiling, and risk exposure**.  
+- Delivered **business recommendations** for modernization, loyalty programs, infra optimization, and digital adoption strategies.  
+
+💡 Impact:
+- Showcases ability to **engineer features, design visualizations, and narrate insights** in a recruiter‑friendly format.  
+- Demonstrates **end‑to‑end analytics maturity** → from raw data preprocessing to strategic storytelling.  
+- Highlights **portfolio‑ready skills** in Python, SQL, Power BI, and Excel for real‑world banking analytics.  
+
 
 ## 📌 Project Overview
 This project presents a **Python‑based exploratory, statistical, and business intelligence analysis** of Indian banking transactions and digital adoption trends between 2022–2025.  
