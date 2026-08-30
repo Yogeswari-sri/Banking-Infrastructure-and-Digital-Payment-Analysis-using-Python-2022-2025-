@@ -24,12 +24,12 @@ Workflow includes:
 
 ---
 ## Task1: Problem Statement & Business Understanding
-<div align="center">
+<div align="left">
 
 ## 📝 Problem Statement
 
 Banks and policymakers often have access to large volumes of raw transaction data but lack a structured framework to convert it into actionable insights.  
-This project applies a complete Python data‑analytics pipeline to RBI transaction records, identifying growth trends, digital adoption ratios, seasonal anomalies, and translating findings into **prescriptive business recommendations**.
+This project applies a complete Python data‑analytics pipeline to Banking transaction records, identifying growth trends, digital adoption ratios, seasonal anomalies, and translating findings into **prescriptive business recommendations**.
 
 </div>
 
