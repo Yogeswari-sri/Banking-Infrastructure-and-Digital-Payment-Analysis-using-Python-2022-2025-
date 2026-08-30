@@ -808,8 +808,8 @@ For queries, collaboration, or feedback:
 - **Author:** Yogeswari K  
 - **Role:** Aspiring Data Analyst  
 - **Location:** Hosur, Tamil Nadu, India  
-- **Email:** yogeswari.k@example.com  
-- **LinkedIn:** [linkedin.com/in/yogeswarik]([https://www.linkedin.com/in/yogeswarikadarkarai/]) 
+- **Email:** kadalyoga20@gmail.com  
+- **LinkedIn:** [linkedin.com/in/yogeswarik](https://www.linkedin.com/in/yogeswarikadarkarai/) 
 - **GitHub:** [github.com/YogeswariK](https://github.com/Yogeswari-sri?tab=repositories)
 
 ---
