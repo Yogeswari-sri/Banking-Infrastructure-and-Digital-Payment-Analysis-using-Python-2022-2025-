@@ -16,6 +16,8 @@ Statistical Profiling
 
 Data Visualization (Python + Power BI)
 
+Data Visualization (Python + Power BI)
+
 Business Insights & Recommendations
 
 📝 Problem Statement
