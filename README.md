@@ -98,7 +98,7 @@ This section provides a clear description of each column in the Banking Infrastr
 
 -----
 
-🎯 Project Objectives
+## 🎯 Project Objectives
 
 This section highlights the eight core objectives of the Banking Infrastructure & Digital Payment Analysis project, along with key business insights derived from the dataset.
 
@@ -147,6 +147,7 @@ df = df.fillna(0)                # Neutralize divide-by-zero artefacts
 df['date'] = pd.to_datetime(df['date'], errors='coerce')  # Convert date column
 
 # 🔄 Data Transformation
+
 # 1. Total Physical ATM Count
 df['total_atms'] = df['atms_crms_onsite'] + df['atms_crms_offsite']
 
@@ -189,17 +190,26 @@ df["cc_atm_avg_withdrawal_amt"] = (df["cc_cash_withdraw_atm_val"] / df["cc_cash_
 
 ## 🚀 Future Engineering Columns
 
-These engineered features capture customer behavior, infrastructure efficiency, and digital adoption trends. They will be used for loyalty analysis, benchmarking, and risk profiling.
+This stage focuses on transforming raw banking transaction data into derived analytical features that capture customer behavior, infrastructure efficiency, and digital adoption intensity. These engineered metrics enable loyalty analysis, benchmarking, and risk profiling across banks.
+
 ## 1. Credit vs Debit Card Usage
 - `monthly_spend_per_debit_card` → Average monthly spend per debit card  
 - `monthly_spend_per_credit_card` → Average monthly spend per credit card  
 - `monthly_trans_per_debit_card` → Average monthly transactions per debit card  
 - `monthly_trans_per_credit_card` → Average monthly transactions per credit card  
 
+👉 Purpose: Highlights **customer spending patterns** and **transaction frequency**, enabling fair comparison of debit vs credit adoption.
+
+---
+
 ## 2. Total Active Cards
 - `total_active_debit_cards` → Count of active debit cards  
 - `total_active_credit_cards` → Count of active credit cards  
 - `total_active_cards` → Combined active debit + credit cards  
+
+👉 Purpose: Ensures **engagement‑based benchmarking** (active usage vs issued cards), avoiding inflated adoption metrics.
+
+---
 
 ## 3. Real vs Digital Adoption
 - `digital_vs_real_ratio` → Ratio of digital channel usage (UPI/QR/Online) vs physical (ATM/POS)  
@@ -207,15 +217,25 @@ These engineered features capture customer behavior, infrastructure efficiency, 
 - `onsite_atm_share_pct` → Share of onsite ATMs (branch‑attached deployment strategy)  
 - `offsite_atm_share_pct` → Share of offsite ATMs (public accessibility strategy)  
 
+👉 Purpose: Measures **digital intensity vs branch reliance**, and evaluates **ATM deployment efficiency**.
+
+---
+
 ## 4. Channel Smart Spending & Risk Profile
 - `dc_pos_avg` → Average debit card spend per POS transaction  
 - `dc_online_avg` → Average debit card spend per online transaction  
 - `cc_pos_avg` → Average credit card spend per POS transaction  
 - `cc_online_avg` → Average credit card spend per online transaction  
 
+👉 Purpose: Profiles **channel risk** (POS vs Online), identifies **e‑commerce adoption trends**, and benchmarks smart spending behavior.
+
+---
+
 ## 5. Risk & Efficiency Indicators
 - `trans_per_atm` → ATM workload stress index (transactions per ATM)  
 - `cc_atm_avg_withdrawal_amt` → Average withdrawal amount per credit card ATM transaction  
+
+👉 Purpose: Detects **ATM stress levels**, highlights **cash‑heavy risk exposure**, and supports **maintenance optimization**.
 
 ✅ Highlights:
 
@@ -304,13 +324,42 @@ Kurtosis tells outlier impact → whether extreme users dominate or usage is bal
 Together, they explain customer loyalty, adoption imbalance, and risk concentration in Indian banking channels.
 
 ## 📊 Visualization Objectives
-
 Visualizations are designed to translate analytical objectives into clear, actionable insights.
 
-## Objective 1 — Fair Comparison Using Active Cards
-🎯 Visualization: **Barplot / Stacked Bar**   
-- Compare banks by total active debit vs credit cards  
-- Highlights real customer engagement vs issued cards  
+## 1️⃣ Fair Comparison Using Active Cards
+🎯 Goal: Compare banks fairly by measuring active card usage instead of just issued cards, ensuring performance reflects real customer engagement.
+
+## 📈 Visualization
+
+Barplot / Stacked Bar / Pie Chart
+
+Compare total active debit vs credit cards across bank categories.
+
+Highlights engagement vs capacity (issued cards).
+
+## Visual:
+<img width="702" height="517" alt="3" src="https://github.com/user-attachments/assets/dc02c4fd-4973-4d72-90e1-eb95da056180" />
+
+
+### Chart Interpretation (Active Cards by Bank Category)
+
+- **Interpretation →** Comparing banks by active cards shows **real customer engagement**, not just bank size.  
+- **Key Insight →** Large banks may issue many cards, but only **active cards prove usage**.  
+- **Pattern →** Public banks lead with the highest active cards, private banks are strong but slower, small finance & foreign banks remain niche, payment banks weakest.  
+- **Trend →** Active card count highlights **adoption differences** across categories.  
+- **Observation →** Fair comparison = focus on **engagement (active cards)** instead of **capacity (bank size)**.  
+
+## 📌 Key Business Insights
+
+Public banks dominate active card usage → strong penetration in mass markets.
+
+Private banks competitive but slower in scale → urban/premium focus.
+
+Small finance & foreign banks → niche adoption.
+
+Payment banks weakest → structural retention challenges.
+
+Univariate analysis confirms engagement differences across categories.
 
 ## Objective 2 — Bank Category Growth Trends
 🎯 Visualization: **Line Chart / Area Plot**  
