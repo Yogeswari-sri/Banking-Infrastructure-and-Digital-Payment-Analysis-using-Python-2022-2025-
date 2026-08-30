@@ -616,10 +616,7 @@ Bandhan Bank → Low withdrawals (₹500–₹700), moderate transactions (80–
 
 -----
 ## Four‑Layer Analytics Framework  
-## 🏗️ Four‑Layer Analytics Framework  
-
 The project follows a **four‑layer analytics maturity model** to ensure structured insights:
------
 
 ### 1️⃣ Descriptive Analysis — "What happened?"
 - Public + Private banks together account for 85–90% of active cards → dominance of traditional categories.  
