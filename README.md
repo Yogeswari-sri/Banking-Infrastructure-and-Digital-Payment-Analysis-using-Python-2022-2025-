@@ -224,7 +224,7 @@ This stage derives **new analytical features** from raw RBI datasets to enable d
 ### 🔧 Transformation Steps
 
 **1. Total Physical ATM Count**  
-```python
+
 df['total_atms'] = df['atms_crms_onsite'] + df['atms_crms_offsite']
 
 2. Onsite ATM Share (%)
@@ -266,15 +266,9 @@ df["cc_atm_avg_withdrawal_amt"] = (
     df["cc_cash_withdraw_atm_val"] / df["cc_cash_withdraw_atm_vol"]
 ).replace([np.inf], np.nan).fillna(0)
 
-'''
 
 🚀 Future Engineering Columns
 This stage focuses on transforming raw banking transaction data into derived analytical features that capture customer behavior, infrastructure efficiency, and digital adoption intensity. These engineered metrics enable loyalty analysis, benchmarking, and risk profiling across banks.
-
-## 🚀 Future Engineering Columns  
-
-Derived features created to capture **customer behavior, infrastructure efficiency, and digital adoption**.  
-These metrics support **loyalty analysis, benchmarking, and risk profiling**.  
 
 ---
 
