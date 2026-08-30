@@ -615,7 +615,7 @@ American Express → Very high withdrawals (₹4,000–₹5,000), few transactio
 Bandhan Bank → Low withdrawals (₹500–₹700), moderate transactions (80–120) → inclusion effort but uneven adoption.
 
 -----
-## Four‑Layer Analytics Framework  
+## Four-Layer Analytics Framework
 The project follows a **four‑layer analytics maturity model** to ensure structured insights:
 
 ### 1️⃣ Descriptive Analysis — "What happened?"
