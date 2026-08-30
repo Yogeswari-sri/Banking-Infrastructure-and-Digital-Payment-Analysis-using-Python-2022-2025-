@@ -23,6 +23,8 @@
 
 ## 🔗 Navigation  
 
+## 📌 Navigation  
+
 - [Executive Summary](#executive-summary)  
 - [Industry Context](#industry-context)  
 - [Problem Statement](#problem-statement)  
@@ -32,13 +34,12 @@
 - [Data Preprocessing](#data-preprocessing)  
 - [Feature Engineering](#feature-engineering)  
 - [Visualization Objectives](#visualization-objectives)  
-- [Four‑Layer Analytics Framework](#four-layer-analytics-framework)  
+- [Four-Layer Analytics Framework](#four-layer-analytics-framework)  
 - [Key Findings — Consolidated](#key-findings--consolidated)  
 - [Business Recommendations](#business-recommendations)  
 - [Limitations of the Study](#limitations-of-the-study)  
 - [Conclusion](#conclusion)  
 - [Project Files & Access](#project-files--access)  
-
 
 ## 📌 Executive Summary
 This project analyzes Indian banking infrastructure and digital payment adoption between 2022–2025 using RBI datasets.  
