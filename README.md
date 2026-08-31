@@ -303,38 +303,25 @@ This stage summarizes the dataset using descriptive statistics to understand dis
 - Channel Efficiency (Utilization ratio)  
 
 ## Statistical Summary
-| Metric            | Mean   | Median | Std. Deviation | Skewness | Kurtosis | Interpretation |
-|-------------------|--------|--------|----------------|----------|----------|----------------|
-| Monthly Spend (₹) | 5,240  | 1,120  | 14,890         | +4.82    | +32.14   | Strong right‑skew, few banks dominate |
-| Transaction Count | 12,450 | 2,100  | 45,200         | +5.12    | +41.05   | Heavy skew, high outlier risk |
-| Digital Share     | 0.62   | 0.55   | 0.25           | +2.45    | +12.30   | Uneven adoption across banks |
-| ROI Ratio         | 0.42   | 0.18   | 1.25           | +6.01    | +52.30   | High variance, few banks highly profitable |
-| Channel Efficiency| 1.15   | 0.80   | 2.10           | +3.88    | +21.44   | Outliers dominate efficiency distribution |
+<img width="1100" height="503" alt="image" src="https://github.com/user-attachments/assets/a786ba76-b98d-43ec-9dea-541670da926f" />
 
 ## Insights
 - **Mean vs Median gap** confirms right‑skewed distributions.  
 - **High kurtosis** indicates fat‑tailed distributions → strong outlier presence.  
 - **Digital Share variance** shows uneven adoption intensity across bank categories.  
 - **ROI Ratio skewness** highlights that only a few banks achieve strong profitability.
-  <img width="980" height="612" alt="2" src="https://github.com/user-attachments/assets/14f4c0a2-a203-4dca-9fe3-5e1474f9d19c" />
-  <img width="1050" height="613" alt="1" src="https://github.com/user-attachments/assets/25231c01-0fa6-46a3-adbb-9301fcd95c5e" />
-
-
-## ✅ Highlights:
-
-Statistical profiling reveals outlier‑driven distributions.
-
-Confirms digital adoption unevenness across banks.
-
-Provides baseline for predictive and prescriptive analytics.
+  <img width="1079" height="488" alt="image" src="https://github.com/user-attachments/assets/a21cc521-34ea-428a-ab54-f312f70bf333" />
 
 ## 📐 Skewness & Kurtosis (Project Context)
 These measures describe the shape and balance of banking channel distributions. They highlight whether customer spending and transactions are evenly spread or dominated by extreme outliers.
 ## 🔹 Skewness → Symmetry / Tilt
+<img width="1102" height="461" alt="image" src="https://github.com/user-attachments/assets/7bfdc00e-deb4-4e28-ae54-0ed494662676" />
+
 - **Definition:** Shows whether data is balanced or tilted.  
 - **Positive skew:** Right‑heavy → many small spends, few extreme large spends.  
 - **Negative skew:** Left‑heavy → many large spends, few very small spends.  
-- **Zero skew:** Perfectly balanced (mean ≈ median).  
+- **Zero skew:** Perfectly balanced (mean ≈ median).
+
 
 ## 👉 Project Insight:  
 - **Debit card usage** → often **positive skew** → majority of customers transact small amounts, few heavy spenders dominate.  
@@ -343,6 +330,8 @@ These measures describe the shape and balance of banking channel distributions. 
 ---
 
 ## 🔹 Kurtosis → Outlier Impact / Tail Heaviness
+<img width="1077" height="421" alt="image" src="https://github.com/user-attachments/assets/7dc9c5ba-b761-4bfa-81ab-673b07d80d6e" />
+
 - **Definition:** Shows whether extreme outliers dominate the distribution.  
 - **High kurtosis:** Heavy tails → few extreme outliers drive results.  
 - **Low kurtosis:** Flat tails → balanced, no extreme spikes.  
