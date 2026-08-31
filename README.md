@@ -796,7 +796,7 @@ Interactive **Power BI dashboard** analyzing:
 <img width="1099" height="620" alt="image" src="https://github.com/user-attachments/assets/02931b20-d2ff-480f-96bc-19f485b1c9cc" />
 
 ## 📊 Dashboard Output 
-<img width="1453" height="813" alt="image" src="https://github.com/user-attachments/assets/70c9d101-001f-4ef8-9de1-d2b56328e92a" />
+<img width="1461" height="810" alt="image" src="https://github.com/user-attachments/assets/c8539b84-00fd-439f-b31b-63e16e3768d2" />
 
 - **KPI Cards** → Total ATMs, Debit Spend, Credit Spend, Efficiency
 - **Line Chart** → Year‑wise Debit Transaction Strategy
