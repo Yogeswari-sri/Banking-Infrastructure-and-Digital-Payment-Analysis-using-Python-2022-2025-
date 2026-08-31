@@ -42,7 +42,7 @@
 
   
 
-## Executive Summary 📌
+## 📌 Executive Summary
 
 This project analyzes Indian banking infrastructure and digital payment adoption between 2022–2025 using RBI datasets.  
 It benchmarks banks on **ATM stress, POS + QR ROI, UPI QR adoption, customer loyalty, and risk exposure**, delivering recruiter‑friendly insights and recommendations.  
@@ -64,13 +64,10 @@ The Indian banking sector (2022–2025) is undergoing rapid transformation:
 
 ---
 
-## Problem Statement
+## ❓ Problem Statement  
+
 ## Task1: Problem Statement & Business Understanding
 <div align="left">
-
-❓ Problem Statement
-
-## ❓ Problem Statement  
 
 Despite rapid growth in digital payments (UPI, QR, online channels),  
 Indian banks face **three major challenges**:
