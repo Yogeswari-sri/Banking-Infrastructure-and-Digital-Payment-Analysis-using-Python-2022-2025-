@@ -23,8 +23,6 @@
 
 ## 🔗 Navigation  
 
-## 📌 Navigation  
-
 - [Executive Summary](#executive-summary)  
 - [Industry Context](#industry-context)  
 - [Problem Statement](#problem-statement)  
@@ -39,10 +37,13 @@
 - [Business Recommendations](#business-recommendations)  
 - [Limitations of the Study](#limitations-of-the-study)  
 - [Conclusion](#conclusion)  
-- [Project Files & Access](#project-files--access)  
+- [Project Files & Access](#project-files--access)
+- [Power BI Dashboard – Banking Infrastructure & Digital Payment (2022–2025)](#PowerBI-Dashboard)
 
-## Executive Summary
-## 📌 Executive Summary
+  
+
+## Executive Summary 📌
+
 This project analyzes Indian banking infrastructure and digital payment adoption between 2022–2025 using RBI datasets.  
 It benchmarks banks on **ATM stress, POS + QR ROI, UPI QR adoption, customer loyalty, and risk exposure**, delivering recruiter‑friendly insights and recommendations.  
 
@@ -51,7 +52,7 @@ The study demonstrates how **Python (Pandas, NumPy, Matplotlib, Seaborn)** can b
 ---
 
 ## Industry Context
-## 🌐 Industry Context  
+ 
 The Indian banking sector (2022–2025) is undergoing rapid transformation:  
 - **Digital Payments Boom** → UPI, QR, and online channels driving transaction growth.  
 - **ATM & POS Infrastructure** → Still critical for cash‑based segments, but facing stress.  
@@ -87,8 +88,8 @@ Indian banks face **three major challenges**:
 </div>
 
 -----
-## Project Objectives
-## 🎯 Project Objectives
+## 🎯Project Objectives
+
 This project presents a Python‑based exploratory, statistical, and business intelligence analysis of Indian banking transactions and digital adoption trends between 2022–2025.  
 
 This section highlights the eight core objectives of the Banking Infrastructure & Digital Payment Analysis project, along with key business insights derived from the dataset.
@@ -118,8 +119,7 @@ Measure repeat usage and active card retention to evaluate customer loyalty and 
 Screen for financial risk exposure in banks expanding digital services, ensuring growth is balanced with transaction security and fraud prevention.
 
 ---
-## Dataset Description
-## 📂 Dataset Description
+## 📂Dataset Description
 
 - **Source:** Reserve Bank of India (RBI) published datasets (2022–2025)  
 - **Scope:** Banking infrastructure, card usage, ATM/POS terminals, QR/UPI transactions, debit & credit spending patterns.  
@@ -218,8 +218,7 @@ Steps applied to clean and prepare the dataset before feature engineering:
 
 ---
 
-## Feature Engineering 
-### ⚙️ Feature Engineering
+## ⚙️Feature Engineering 
 
 This stage focuses on transforming raw banking transaction data into derived analytical features that capture customer behavior, infrastructure efficiency, and digital adoption intensity. These engineered metrics enable loyalty analysis, benchmarking, and risk profiling across banks.
 
@@ -279,8 +278,8 @@ This stage focuses on transforming raw banking transaction data into derived ana
 - Channel risk benchmarking.
 
 -----
-## Exploratory Data Analysis (EDA)
-## Task3:🔍 Exploratory Data Analysis (EDA)
+## 🔍Exploratory Data Analysis (EDA)
+## Task3:
 
 Visualizations help in understanding customer spending, digital adoption, and infrastructure efficiency. They also reveal skewness and kurtosis patterns in the dataset.
 
@@ -738,6 +737,7 @@ Risk Management → Cash‑heavy banks must diversify into digital channels.
 -----
 
 ## Limitations of the Study  
+
 While the analysis provides valuable insights, certain limitations exist:
 
 1. **Data Availability**  
@@ -761,14 +761,6 @@ While the analysis provides valuable insights, certain limitations exist:
 
 ---
 
-### 📌 Key Takeaways
-Insights are directional, not absolute → useful for benchmarking, but not predictive at customer level.
-
-Future studies should integrate demographics, fraud data, and merchant categories for richer analysis.
-
-Combining RBI datasets with fintech adoption metrics will provide a more holistic view.
-
-----
 ## Conclusion
 
 This project demonstrates how **Indian banking infrastructure and digital payment adoption (2022–2025)** can be analyzed using a structured, four‑layer analytics framework.  
@@ -789,6 +781,43 @@ This project demonstrates how **Indian banking infrastructure and digital paymen
 
 ---
 
+# Power BI Dashboard – Banking Infrastructure & Digital Payment (2022–2025)
+
+## 📌 Project Summary
+Interactive **Power BI dashboard** analyzing:
+- Debit & Credit card monthly spend
+- ATM distribution (Onsite vs Offsite)
+- Channel efficiency & ROI ratio
+- Bank category & bank‑wise performance
+
+---
+# PowerBI-Dashboard
+## 📊 Dashboard Output 
+<img width="1478" height="813" alt="image" src="https://github.com/user-attachments/assets/cb7dff74-86c7-409e-ac69-0b23b9e294a9" />
+
+- **KPI Cards** → Total ATMs, Debit Spend, Credit Spend, Efficiency
+- **Line Chart** → Year‑wise Debit Transaction Strategy
+- **Bar Chart** → Monthly Debit Spend by Bank
+- **Pie Chart** → Onsite vs Offsite ATM Ratio
+- **Area Chart** → Credit vs Debit Card Analysis
+- **Gauge Chart** → ROI Ratio (Efficiency Snapshot)
+
+---
+
+## 🎛️ Filters
+- Date range (2022–2025)
+- Bank Category (Public, Private, Payment, Small Finance, Foreign)
+- Bank Name checklist
+- Channel Type (ATM, POS, QR, UPI)
+
+---
+
+## 🚀 Usage
+1. Open `.pbix` file in Power BI Desktop.
+2. Apply slicers → explore trends.
+3. Export dashboard → PDF/PNG for recruiter showcase.
+
+
 ### 🔧 How to Access & Run
 ## How to Access in Google Colab
 1. Open Google Colab → https://colab.research.google.com  
@@ -796,6 +825,7 @@ This project demonstrates how **Indian banking infrastructure and digital paymen
 3. Make sure dependencies are installed:  
    ```bash
    pip install -r requirements.txt
+   
 ---
 ## Contact & Usage
 ## 📬 Contact & Usage  
