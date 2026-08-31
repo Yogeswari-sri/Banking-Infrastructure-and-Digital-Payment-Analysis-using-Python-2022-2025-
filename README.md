@@ -42,7 +42,7 @@
 
   
 
-## 📌 Executive Summary
+## Executive Summary
 
 This project analyzes Indian banking infrastructure and digital payment adoption between 2022–2025 using RBI datasets.  
 It benchmarks banks on **ATM stress, POS + QR ROI, UPI QR adoption, customer loyalty, and risk exposure**, delivering recruiter‑friendly insights and recommendations.  
