@@ -118,24 +118,33 @@ Screen for financial risk exposure in banks expanding digital services, ensuring
 
 ---
 ## Dataset Description
-📂Dataset
+## 📂 Dataset Information
 
-- **Source:** Reserve Bank of India (RBI) published datasets (2022–2025)  
-- **Scope:** Banking infrastructure, card usage, ATM/POS terminals, QR/UPI transactions, debit & credit spending patterns.  
-- **Granularity:** Yearly + quarterly transaction volumes, balances, and infrastructure counts.  
-- **Key Features Extracted:**  
-  - Active Cards (Debit & Credit)  
-  - ATM & POS terminal counts  
-  - QR & UPI transaction volumes  
-  - Digital vs Physical balance ratios  
-  - ROI drivers (POS + QR efficiency)  
-  - ATM Stress Index (maintenance vs usage)  
-  - Customer Loyalty profiling metrics  
-  - Risk & Safety indicators (fraud exposure, infra gaps)
-
-  💡 This dataset provides a **comprehensive view of India’s digital payment ecosystem**, enabling analysis of **growth trends, efficiency, loyalty, and risk management** across banks.
+| **Attribute**   | **Details** |
+|-----------------|-------------|
+| **Source**      | Reserve Bank of India (RBI) published datasets (2022–2025) |
+| **Scope**       | Banking infrastructure, card usage, ATM/POS terminals, QR/UPI transactions, debit & credit spending patterns |
+| **Granularity** | Yearly + quarterly transaction volumes, balances, and infrastructure counts |
+| **Period**      | 2022–2025 |
+| **File Format** | Excel / CSV |
+| **Environment** | Python (Jupyter Notebook) + Power BI |
 
 ---
+
+## 🔑 Key Features Extracted
+
+| **Feature**                  | **Description** |
+|-------------------------------|-----------------|
+| **Active Cards**              | Debit & Credit card counts and usage |
+| **ATM & POS Terminals**       | Deployment, usage, and growth trends |
+| **QR & UPI Transactions**     | Digital payment adoption metrics |
+| **Digital vs Physical Ratios**| Balance between cash vs digital transactions |
+| **ROI Drivers**               | POS + QR efficiency indicators |
+| **ATM Stress Index**          | Maintenance vs usage pressure |
+| **Customer Loyalty Metrics**  | Profiling based on active card engagement |
+| **Risk & Safety Indicators**  | Fraud exposure, infrastructure gaps |
+
+  ---
 
 <div align="left">
 
@@ -155,7 +164,7 @@ This project leverages a **Python data analysis stack** with industry‑standard
 
 ---
 
-## 📂 Column Dictionary
+## 📂 Attribute / Column Dictionary
 
 This section provides a clear description of each column in the Banking Infrastructure & Digital Payment Analysis (2022–2025) dataset. It helps recruiters and reviewers quickly understand the dataset structure and the meaning of each field.
 | Column | Description |
