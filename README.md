@@ -64,7 +64,7 @@ The Indian banking sector (2022–2025) is undergoing rapid transformation:
 
 ---
 
-## ❓ Problem Statement  
+##  Problem Statement  
 
 ## Task1: Problem Statement & Business Understanding
 <div align="left">
@@ -85,7 +85,8 @@ Indian banks face **three major challenges**:
 </div>
 
 -----
-## 🎯Project Objectives
+## Project Objectives
+### 🎯 Objectives
 
 This project presents a Python‑based exploratory, statistical, and business intelligence analysis of Indian banking transactions and digital adoption trends between 2022–2025.  
 
@@ -116,7 +117,8 @@ Measure repeat usage and active card retention to evaluate customer loyalty and 
 Screen for financial risk exposure in banks expanding digital services, ensuring growth is balanced with transaction security and fraud prevention.
 
 ---
-## 📂Dataset Description
+## Dataset Description
+📂Dataset
 
 - **Source:** Reserve Bank of India (RBI) published datasets (2022–2025)  
 - **Scope:** Banking infrastructure, card usage, ATM/POS terminals, QR/UPI transactions, debit & credit spending patterns.  
@@ -275,7 +277,8 @@ This stage focuses on transforming raw banking transaction data into derived ana
 - Channel risk benchmarking.
 
 -----
-## 🔍Exploratory Data Analysis (EDA)
+
+## Exploratory Data Analysis (EDA)
 ## Task3:
 
 Visualizations help in understanding customer spending, digital adoption, and infrastructure efficiency. They also reveal skewness and kurtosis patterns in the dataset.
@@ -350,7 +353,7 @@ Kurtosis tells outlier impact → whether extreme users dominate or usage is bal
 Together, they explain customer loyalty, adoption imbalance, and risk concentration in Indian banking channels.
 
 ## Visualization Objectives
-## 📊 Visualization Objectives  
+## 📊 Objectives  
 
 The goal of visualization is to convert engineered features into **clear, actionable insights**.  
 Key objectives include:
@@ -658,7 +661,7 @@ Prescriptive: Actionable roadmap → loyalty rewards, modernization, ROI drivers
 ## Key Findings — Consolidated
 This section summarizes the most important insights derived from the analysis of Indian banking infrastructure and digital payment adoption (2022–2025).
 
-### 🔑 Consolidated Insights
+### Consolidated Insights
 
 - **ATM Infrastructure**
   - Onsite & Offsite ATMs grow together, but overall stress is low (2.4%).  
@@ -818,7 +821,7 @@ Interactive **Power BI dashboard** analyzing:
 3. Export dashboard → PDF/PNG for recruiter showcase.
 
 
-### 🔧 How to Access & Run
+### 🔧How to Access & Run
 ## How to Access in Google Colab
 1. Open Google Colab → https://colab.research.google.com  
 2. Upload the notebook file from `/notebooks/` (e.g., 01_preprocessing.ipynb)  
