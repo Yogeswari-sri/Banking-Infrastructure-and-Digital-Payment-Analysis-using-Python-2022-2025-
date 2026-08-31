@@ -792,6 +792,9 @@ Interactive **Power BI dashboard** analyzing:
 
 ---
 # PowerBI-Dashboard
+### Relationship Image
+<img width="1099" height="620" alt="image" src="https://github.com/user-attachments/assets/02931b20-d2ff-480f-96bc-19f485b1c9cc" />
+
 ## 📊 Dashboard Output 
 <img width="1453" height="813" alt="image" src="https://github.com/user-attachments/assets/70c9d101-001f-4ef8-9de1-d2b56328e92a" />
 
