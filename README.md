@@ -564,7 +564,7 @@ Group banks by category (Public, Private, Foreign, Small Finance, Payment).
 Plot average debit + credit card transactions per category.
 
 Add a red benchmark line to compare loyalty across categories.
-<img width="1197" height="786" alt="image" src="https://github.com/user-attachments/assets/f4d5a834-0515-443e-9f59-dbc70b65ceed" />
+<img width="456" height="355" alt="image" src="https://github.com/user-attachments/assets/afb80957-4932-4318-961f-c336249e7245" />
 
 ### Chart Interpretation (Customer Loyalty by Bank Category)
 
