@@ -95,8 +95,8 @@ This section highlights the eight core objectives of the Banking Infrastructure 
 ## Objective 1 — Fair Comparison Using Active Cards
 Develop a framework to compare banks based on total active cards rather than just issued cards, ensuring performance reflects real customer engagement.
 
-## Objective 2 — Bank Category Growth Trends
-Track year‑wise changes in active cards across public, private, foreign, and small finance banks to highlight adoption patterns.
+## Objective 2 — Year-wise ROI
+Track Track year‑wise highest ROI which returns to Physical Vs Digitally Investment.
 
 ## Objective 3 — Maintenance & Infrastructure Optimization
 Identify the best time for banks to upgrade ATMs and branches by analyzing seasonal transaction spikes and downtime cycles.
@@ -392,18 +392,18 @@ Payment banks weakest → structural retention challenges.
 
 Univariate analysis confirms engagement differences across categories.
 
-## 2️⃣ Bank Category Growth Trends
-### 🎯 Goal: Track year‑wise changes in active cards across public, private, foreign, and small finance banks to highlight adoption patterns and identify leaders/laggards.
+## 2️⃣ 2. Year-wise ROI Performance
+### 🎯 Goal: Track year‑wise highest ROI which returns to Physical Vs Digitally Investment?.
 
 ## 📈 Visualization
 Line Chart / Trend Plot
 
-Compare active card counts year‑wise (2022–2025).
+Compare ayear‑wise ROI (2022–2025).
 
-Identify best performing bank each year.
+Identify best performing ROI each year.
 
 ## Visual:
-<img width="890" height="566" alt="image" src="https://github.com/user-attachments/assets/6746db28-f6b3-4b64-beb6-1f4e19720fa6" />
+<img width="1039" height="668" alt="image" src="https://github.com/user-attachments/assets/7fd76717-ed78-423f-a8b8-c25d0cee3fc7" />
 
 ### Chart Interpretation (Year‑wise Active Cards)
 
@@ -413,17 +413,15 @@ Identify best performing bank each year.
 - **Trend →** Initial growth momentum followed by decline → signals customer migration or reduced activity.  
 - **Observation →** Growth trends highlight need for **digital adoption + retention strategies**.  
 
+### ROI Analysis (2022-2025)
 ##📌 Key Business Insights
-
-Public Sector Banks (SBI, Union, IDBI) → Strong growth until 2023, decline thereafter.
-
-Private Banks (HDFC, ICICI, Axis) → Steady growth, urban/premium focus.
-
-Foreign Banks → Niche growth, balanced debit + credit adoption.
-
-Small Finance Banks → Inclusion‑focused, slower scale.
-
-Payment Banks → Weak adoption, minimal growth.
+2025 gave the highest ROI = 16.25%, proving digital infra investments yielded maximum returns that year.
+## Pattern
+ROI shows a growth → peak → decline → recovery cycle, with 2025 marking the strongest recovery point.
+## Trend 
+From 2022-2024 ROI remained low/negative, but 2025 upward trend highlights customer shift toward cashless channels (POS, QR, Online).
+## Observation
+Overall ROI peaked in 2025 (16.25%), confirming banks benefited most from digital adoption, while ATM-based infra lagged behind.
 
 
 ## 3️⃣ Real vs Digital Channel Balance
