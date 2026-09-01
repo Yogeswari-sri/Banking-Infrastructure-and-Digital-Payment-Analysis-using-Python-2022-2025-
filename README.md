@@ -224,7 +224,7 @@ Steps applied to clean and prepare the dataset before feature engineering:
 
 ---
 
-## ⚙️Feature Engineering 
+## Feature Engineering 
 
 This stage focuses on transforming raw banking transaction data into derived analytical features that capture customer behavior, infrastructure efficiency, and digital adoption intensity. These engineered metrics enable loyalty analysis, benchmarking, and risk profiling across banks.
 
@@ -340,7 +340,7 @@ These measures describe the shape and balance of banking channel distributions. 
 - **Credit card spend** → **near‑normal kurtosis** → balanced, less outlier domination.  
 - **Digital vs Real ratio** → skewed towards branch‑heavy public banks, while private banks show balanced kurtosis with hybrid adoption. 
 
-## ✅ Summary and Key Insights
+## Summary and Key Insights
 
 Skewness tells tilt → whether spending is dominated by small vs large transactions.
 
@@ -349,7 +349,6 @@ Kurtosis tells outlier impact → whether extreme users dominate or usage is bal
 Together, they explain customer loyalty, adoption imbalance, and risk concentration in Indian banking channels.
 
 ## Visualization Objectives
-## 📊 Objectives  
 
 The goal of visualization is to convert engineered features into **clear, actionable insights**.  
 Key objectives include:
@@ -825,7 +824,6 @@ Interactive **Power BI dashboard** analyzing:
    
 ---
 ## Contact & Usage
-## 📬 Contact & Usage  
 
 For queries, collaboration, or feedback:  
 - **Author:** Yogeswari K  
@@ -838,10 +836,10 @@ For queries, collaboration, or feedback:
 ---
 
 ### 🤝 How Recruiters Can Use This Repo
-- Review **project workflow** (data → preprocessing → features → visualization → insights).  
-- Assess **technical skills** (Python, Pandas, Seaborn, Power BI).  
-- Evaluate **business impact** (recommendations for banking infrastructure & digital adoption).  
-- Validate **portfolio readiness** for data analyst roles.  
+**Project Workflow:** Data cleaning → preprocessing → feature engineering → visualization → insights generation.
+**Technical Skills:** Python (Pandas, NumPy, Seaborn, Matplotlib), SQL, Excel (Pivot Tables, Power Query), Power BI (DAX, dashboard design).
+**Business Impact:** ROI analysis of ATM, POS, QR channels; customer loyalty metrics; digital adoption recommendations.
+**Portfolio Readiness:** End‑to‑end analytics project demonstrating structured methodology, visualization, and decision‑making skills relevant for data analyst roles.  
 
 ---
 
