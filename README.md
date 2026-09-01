@@ -3,7 +3,7 @@
 
 👩‍💻 Prepared by: **Yogeswari K**  
 🎓 Course: Programme in AI Driven Data Analytics, Entri  
-🔗 Drive Link : [Python_Project]([https://drive.google.com/drive/folders/1Dcf209_M68RG_CIUWIYA9ZuGPV3Hfd81?usp=drive_link])
+🔗 Link : [https://drive.google.com/drive/folders/1Dcf209_M68RG_CIUWIYA9ZuGPV3Hfd81?usp=drive_link]
 
 ---
 
