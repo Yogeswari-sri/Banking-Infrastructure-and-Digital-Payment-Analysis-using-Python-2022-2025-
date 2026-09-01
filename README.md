@@ -788,11 +788,11 @@ Interactive **Power BI dashboard** analyzing:
 
 ---
 # PowerBI-Dashboard
-### Relationship Image
+### Data_Modelling
 <img width="1099" height="620" alt="image" src="https://github.com/user-attachments/assets/02931b20-d2ff-480f-96bc-19f485b1c9cc" />
 
 ## 📊 Dashboard Output 
-<img width="1461" height="810" alt="image" src="https://github.com/user-attachments/assets/c8539b84-00fd-439f-b31b-63e16e3768d2" />
+<img width="1472" height="810" alt="image" src="https://github.com/user-attachments/assets/c4d4e4d0-b096-4afd-92ee-41034a43799c" />
 
 - **KPI Cards** → Total ATMs, Debit Spend, Credit Spend, Efficiency
 - **Line Chart** → Year‑wise Debit Transaction Strategy
