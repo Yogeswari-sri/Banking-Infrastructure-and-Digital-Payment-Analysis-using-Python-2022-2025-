@@ -304,8 +304,7 @@ This stage summarizes the dataset using descriptive statistics to understand dis
 
 ## Statistical Summary
 <img width="1100" height="503" alt="image" src="https://github.com/user-attachments/assets/a786ba76-b98d-43ec-9dea-541670da926f" />
-<img width="2206" height="2486" alt="image" src="https://github.com/user-attachments/assets/0c52f723-f008-45e5-b568-031f4fbaffd8" />
-
+<img width="2212" height="2486" alt="central_tendency_chart (1)" src="https://github.com/user-attachments/assets/bba3d4fc-0566-4b10-a790-90be45f90f5e" />
 
 ## Insights
 - **Mean vs Median gap** confirms right‑skewed distributions.  
