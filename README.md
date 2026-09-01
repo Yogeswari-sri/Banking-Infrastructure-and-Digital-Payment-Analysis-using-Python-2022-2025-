@@ -304,14 +304,15 @@ This stage summarizes the dataset using descriptive statistics to understand dis
 
 ## Statistical Summary
 <img width="1100" height="503" alt="image" src="https://github.com/user-attachments/assets/a786ba76-b98d-43ec-9dea-541670da926f" />
+<img width="2206" height="2486" alt="image" src="https://github.com/user-attachments/assets/0c52f723-f008-45e5-b568-031f4fbaffd8" />
+
 
 ## Insights
 - **Mean vs Median gap** confirms right‑skewed distributions.  
 - **High kurtosis** indicates fat‑tailed distributions → strong outlier presence.  
 - **Digital Share variance** shows uneven adoption intensity across bank categories.  
 - **ROI Ratio skewness** highlights that only a few banks achieve strong profitability.
-  <img width="1079" height="488" alt="image" src="https://github.com/user-attachments/assets/a21cc521-34ea-428a-ab54-f312f70bf333" />
-
+  
 ## 📐 Skewness & Kurtosis (Project Context)
 These measures describe the shape and balance of banking channel distributions. They highlight whether customer spending and transactions are evenly spread or dominated by extreme outliers.
 ## 🔹 Skewness → Symmetry / Tilt
