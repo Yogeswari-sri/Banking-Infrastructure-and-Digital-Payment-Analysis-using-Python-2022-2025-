@@ -87,7 +87,6 @@ Indian banks face **three major challenges**:
 
 -----
 ## Project Objectives
-### 🎯 Objectives
 
 This project presents a Python‑based exploratory, statistical, and business intelligence analysis of Indian banking transactions and digital adoption trends between 2022–2025.  
 
@@ -119,7 +118,6 @@ Screen for financial risk exposure in banks expanding digital services, ensuring
 
 ---
 ## Dataset Description
-## 📂 Dataset Information
 
 | **Attribute**   | **Details** |
 |-----------------|-------------|
@@ -150,7 +148,6 @@ Screen for financial risk exposure in banks expanding digital services, ensuring
 <div align="left">
 
 ## Tools & Technologies
-## 🛠️ Tools & Technologies  
 
 This project leverages a **Python data analysis stack** with industry‑standard libraries:
 
