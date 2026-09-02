@@ -71,6 +71,53 @@ This project follows a **10‑stage analytics lifecycle** to transform raw banki
 📥 **Data Ingestion** → 🔍 **Inspection** → 🧹 **Cleaning** → 🔄 **Transformation** → ⚙️ **Feature Engineering** → 📊 **EDA** → 📈 **Statistical Analysis** → 📉 **Visualization** → 💡 **Insights** → 🗂️ **Decision Making**
 
 ---
+## 📥 Data Ingestion
+
+## Dataset Description
+
+| **Attribute**   | **Details** |
+|-----------------|-------------|
+| **Source**      | Reserve Bank of India (RBI) published datasets (2022–2025) |
+| **Scope**       | Banking infrastructure, card usage, ATM/POS terminals, QR/UPI transactions, debit & credit spending patterns |
+| **Granularity** | Yearly + quarterly transaction volumes, balances, and infrastructure counts |
+| **Period**      | 2022–2025 |
+| **File Format** | Excel / CSV |
+| **Environment** | Python (Jupyter Notebook) + Power BI |
+| **Link:**       | [https://drive.google.com/drive/folders/1Dcf209_M68RG_CIUWIYA9ZuGPV3Hfd81?usp=drive_link] |
+---
+
+## 🔑 Key Features Extracted
+
+| **Feature**                  | **Description** |
+|-------------------------------|-----------------|
+| **Active Cards**              | Debit & Credit card counts and usage |
+| **ATM & POS Terminals**       | Deployment, usage, and growth trends |
+| **QR & UPI Transactions**     | Digital payment adoption metrics |
+| **Digital vs Physical Ratios**| Balance between cash vs digital transactions |
+| **ROI Drivers**               | POS + QR efficiency indicators |
+| **ATM Stress Index**          | Maintenance vs usage pressure |
+| **Customer Loyalty Metrics**  | Profiling based on active card engagement |
+| **Risk & Safety Indicators**  | Fraud exposure, infrastructure gaps |
+
+  ---
+
+<div align="left">
+
+## Tools & Technologies
+
+This project leverages a **Python data analysis stack** with industry‑standard libraries:
+
+- **Python 3.x** → Core programming language  
+- **Pandas** → Data wrangling, preprocessing, feature engineering  
+- **NumPy** → Numerical operations & handling divide‑by‑zero artefacts  
+- **Matplotlib** → Visualizations (line charts, barplots, scatter plots)  
+- **Seaborn** → Advanced statistical plots (pair plots, heatmaps)  
+- **Jupyter Notebook** → Interactive analysis & documentation  
+
+</div>
+
+----
+## 🔍 **Inspection**
 
 ##  Problem Statement  
 
@@ -123,50 +170,6 @@ Measure repeat usage and active card retention to evaluate customer loyalty and 
 ## Objective 8 — Risk & Safety Management
 Screen for financial risk exposure in banks expanding digital services, ensuring growth is balanced with transaction security and fraud prevention.
 
----
-## Dataset Description
-
-| **Attribute**   | **Details** |
-|-----------------|-------------|
-| **Source**      | Reserve Bank of India (RBI) published datasets (2022–2025) |
-| **Scope**       | Banking infrastructure, card usage, ATM/POS terminals, QR/UPI transactions, debit & credit spending patterns |
-| **Granularity** | Yearly + quarterly transaction volumes, balances, and infrastructure counts |
-| **Period**      | 2022–2025 |
-| **File Format** | Excel / CSV |
-| **Environment** | Python (Jupyter Notebook) + Power BI |
-| **Link:**       | [https://drive.google.com/drive/folders/1Dcf209_M68RG_CIUWIYA9ZuGPV3Hfd81?usp=drive_link] |
----
-
-## 🔑 Key Features Extracted
-
-| **Feature**                  | **Description** |
-|-------------------------------|-----------------|
-| **Active Cards**              | Debit & Credit card counts and usage |
-| **ATM & POS Terminals**       | Deployment, usage, and growth trends |
-| **QR & UPI Transactions**     | Digital payment adoption metrics |
-| **Digital vs Physical Ratios**| Balance between cash vs digital transactions |
-| **ROI Drivers**               | POS + QR efficiency indicators |
-| **ATM Stress Index**          | Maintenance vs usage pressure |
-| **Customer Loyalty Metrics**  | Profiling based on active card engagement |
-| **Risk & Safety Indicators**  | Fraud exposure, infrastructure gaps |
-
-  ---
-
-<div align="left">
-
-## Tools & Technologies
-
-This project leverages a **Python data analysis stack** with industry‑standard libraries:
-
-- **Python 3.x** → Core programming language  
-- **Pandas** → Data wrangling, preprocessing, feature engineering  
-- **NumPy** → Numerical operations & handling divide‑by‑zero artefacts  
-- **Matplotlib** → Visualizations (line charts, barplots, scatter plots)  
-- **Seaborn** → Advanced statistical plots (pair plots, heatmaps)  
-- **Jupyter Notebook** → Interactive analysis & documentation  
-
-</div>
-
 ----
 
 ## 📂 Attribute / Column Dictionary
@@ -206,6 +209,8 @@ This section provides a clear description of each column in the Banking Infrastr
 | dc_cash_withdraw_pos_vol | Volume of debit card cash withdrawals at POS terminals |
 
 -----
+## 🧹 **Cleaning** 
+## 🔄 **Transformation**
 
 ## Task 2: Data Wrangling  
 ## Data Preprocessing  
@@ -688,77 +693,30 @@ This section summarizes the most important insights derived from the analysis of
 
 ### Consolidated Insights
 
-- **ATM Infrastructure**
-  - Onsite & Offsite ATMs grow together, but overall stress is low (2.4%).  
-  - ATMs are underutilized → no urgent upgrades required.  
+## 📌 Final Consolidated Insights
 
-- **POS + QR Synergy**
-  - Strongest profit driver, pushing credit card adoption.  
-  - POS + Bharat QR channels show moderate correlation, delivering immediate ROI.  
+1. **QR Infrastructure → Highest ROI**
+   - ROI analysis shows **QR payments deliver the strongest profitability (168.75% in 2025)**.  
+   - POS and ATM channels remain negative, proving QR is the **true growth driver** for banks.  
+   - Strategic Focus → Expand QR infrastructure in semi‑urban and rural markets to maximize ROI.  
 
-- **UPI QR Adoption**
-  - Evolves independently, positioned as the **future digital driver**.  
-  - Weak correlation with other channels → long‑term growth engine.  
-
-- **Customer Loyalty**
-  - Private banks → strongest loyalty (6.2 txns/card).  
-  - Foreign banks → balanced debit + credit, premium customer base.  
-  - Public/Small Finance banks → moderate loyalty.  
-  - Payment banks → weakest adoption, minimal engagement.  
-
-- **Risk Analysis**
-  - Cash‑heavy banks face concentrated risk.  
-  - Digital‑focused banks (e.g., Airtel Payments Bank) manage risk best.  
-  - American Express shows high‑value risk due to large withdrawals with few transactions.  
-
-## Business Takeaways
-ATM infra → maintain but avoid overinvestment.
-
-POS + QR → immediate ROI driver, expand merchant acceptance.
-
-UPI QR → prepare as independent digital growth engine.
-
-Customer loyalty → strongest in Private/Foreign banks, modernization needed in Public/Payment banks.
-
-Risk management → cash‑heavy banks must diversify into digital channels.
+2. **Private Banks → Strongest Customer Loyalty**
+   - Private banks lead with **~6.2 average transactions per card**, highest among all categories.  
+   - Foreign banks show good loyalty (~5.1), but public and small finance banks are moderate (~4.5, ~4.2).  
+   - Payment banks are weakest (~2.0), highlighting a loyalty gap.  
+   - Strategic Focus → Replicate private bank strategies with tiered rewards and personalized offers to strengthen loyalty. 
 
 -----
 
 ## Business Recommendations  
 
-Based on the consolidated findings, the following strategic actions are recommended:
+1. **Expand QR Infrastructure**  
+   - QR payments deliver the **highest ROI** among all channels.  
+   - Banks should prioritize QR deployment in semi‑urban and rural areas to maximize profitability.  
 
-1. **ATM Infrastructure Optimization**  
-   - Reduce stress by redistributing workload across onsite/offsite ATMs.  
-   - Invest in smart ATMs with lower maintenance costs.  
-
-2. **Digital Adoption Acceleration**  
-   - Expand UPI/QR penetration in semi‑urban & rural branches.  
-   - Incentivize customers with cashback/rewards for digital transactions.  
-
-3. **Customer Loyalty Programs**  
-   - Strengthen credit card loyalty with tiered benefits.  
-   - Bridge debit card engagement gap with personalized offers.  
-
-4. **Channel Efficiency Enhancement**  
-   - Promote online channels for higher ticket size transactions.  
-   - Optimize POS infrastructure in retail hubs.  
-
-5. **Risk & Safety Management**  
-   - Deploy fraud detection systems for cash‑heavy banks.  
-   - Enhance cyber‑security for digital‑first banks.  
-
-## 📌 Key Takeaways
-Infra Strategy → Optimize ATM maintenance, avoid over‑spending on low‑stress infra.
-
-ROI Drivers → POS + QR channels deliver immediate profitability.
-
-Future Growth → UPI QR adoption will reshape digital payments.
-
-Customer Engagement → Loyalty programs + modernization critical for retention.
-
-Risk Management → Cash‑heavy banks must diversify into digital channels.
-
+2. **Strengthen Customer Loyalty Programs**  
+   - Private banks already lead in **customer loyalty**.  
+   - Other banks must adopt tiered rewards and personalized offers to close the loyalty gap.  
 -----
 
 ## Limitations of the Study  
