@@ -15,7 +15,7 @@
 
 📌 **Highlights**
 - 8 Visualization Objectives (ATM, POS, QR, UPI, Loyalty, Risk)  
-- 20+ Engineered Features (Active Cards, Stress Index, ROI Ratios)  
+- 10+ Engineered Features (Active Cards, Stress Index, ROI Ratios)  
 - Four‑Layer Analytics Framework for strategic recommendations  
 - Recruiter‑friendly README with insights, findings, and business roadmap  
 
