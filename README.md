@@ -3,7 +3,6 @@
 
 👩‍💻 Prepared by: **Yogeswari K**  
 🎓 Course: Programme in AI Driven Data Analytics, Entri  
-🔗 Link : [https://drive.google.com/drive/folders/1Dcf209_M68RG_CIUWIYA9ZuGPV3Hfd81?usp=drive_link]
 
 ---
 
@@ -60,8 +59,6 @@ The Indian banking sector (2022–2025) is undergoing rapid transformation:
 - **Customer Behavior Shift** → Credit card adoption rising, debit card usage stabilizing.  
 - **Regulatory Push** → RBI promoting financial inclusion, digital adoption, and fraud risk management.  
 - **Competitive Landscape** → Banks competing on digital efficiency, loyalty programs, and infrastructure modernization.  
-
-👉 This context sets the stage for analyzing **banking infrastructure efficiency, digital adoption intensity, and customer loyalty trends**.
 
 ---
 
@@ -127,7 +124,7 @@ Screen for financial risk exposure in banks expanding digital services, ensuring
 | **Period**      | 2022–2025 |
 | **File Format** | Excel / CSV |
 | **Environment** | Python (Jupyter Notebook) + Power BI |
-
+| **Link:**       | [https://drive.google.com/drive/folders/1Dcf209_M68RG_CIUWIYA9ZuGPV3Hfd81?usp=drive_link] |
 ---
 
 ## 🔑 Key Features Extracted
