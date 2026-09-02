@@ -29,7 +29,7 @@
 - [Project Objectives](#project-objectives)  
 - [Dataset Description](#dataset-description)  
 - [Tools & Technologies](#tools--technologies)
-- [Project Workflow](#project--workflow) 
+- [Python Data Analytics Workflow](#project-workflow) 
 - [Data Preprocessing](#data-preprocessing)  
 - [Feature Engineering](#feature-engineering)  
 - [Visualization Objectives](#visualization-objectives)  
@@ -159,9 +159,8 @@ This project leverages a **Python data analysis stack** with industry‑standard
 </div>
 
 ---
-## Project Workflow
 
-## 🔄 Python Data Analytics Workflow
+## Python Data Analytics Workflow
 
 📥 Data Ingestion  
    ↓  
