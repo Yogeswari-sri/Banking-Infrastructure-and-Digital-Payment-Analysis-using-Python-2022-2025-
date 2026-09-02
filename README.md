@@ -480,6 +480,31 @@ POS + Bharat QR Synergy → Moderate correlation, strongest ROI driver, boosts c
 
 UPI QR → Weak correlation, independent growth path, positioned as future digital driver.
 
+## Return on Investment (ROI) Analysis of Digital Payment Channels  
+**POS, ATM, and QR Code Channels | 2022 – 2025**
+
+---
+
+### 📊 ROI Summary Table  
+
+| Year | ROI - POS (%) | ROI - ATM (%) | ROI - QR (%) |
+|------|---------------|---------------|--------------|
+| 2022 | -55.80        | -80.80        | 16.54        |
+| 2023 | -53.22        | -78.08        | 5.43         |
+| 2024 | -49.56        | -75.02        | 9.11         |
+| 2025 | -47.11        | -72.90        | 168.75       |
+
+---
+
+### 🔑 Key Insights  
+- **POS channel ROI** → Consistently negative but steadily improving, moving from ‑55.80% in 2022 to ‑47.11% in 2025 (recovery of ~8.7 percentage points).  
+- **ATM channel ROI** → Remains the weakest performer, deeply negative throughout (‑80.80% → ‑72.90%), proving it is a cost/loss center despite slight improvement.  
+- **QR Code channel ROI** → Only consistently positive performer, with an exceptional surge in 2025 (9.11% → 168.75%, >18x increase).  
+- **Strategic Takeaway** → The dramatic 2025 spike in QR ROI signals rapidly growing adoption and cost‑efficiency of QR‑based payments, driven by low infrastructure costs and rising digital/contactless usage.  
+
+---
+
+
 ## 5️⃣ Maintenance & ATM Stress (Onsite vs Offsite Combined)
 ### 🎯 Goal: Track ATM workload trends and identify which locations (onsite vs offsite) need more frequent maintenance, ensuring cost‑efficient infrastructure management.
 
