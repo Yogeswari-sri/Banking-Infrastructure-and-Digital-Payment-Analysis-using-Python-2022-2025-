@@ -480,7 +480,7 @@ POS + Bharat QR Synergy → Moderate correlation, strongest ROI driver, boosts c
 
 UPI QR → Weak correlation, independent growth path, positioned as future digital driver.
 
-## Return on Investment (ROI) Analysis of Digital Payment Channels  
+## Return on Investment (ROI) Analysis of Channel Spending Efficiency  
 **POS, ATM, and QR Code Channels | 2022 – 2025**
 
 ---
