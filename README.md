@@ -29,7 +29,7 @@
 - [Project Objectives](#project-objectives)  
 - [Dataset Description](#dataset-description)  
 - [Tools & Technologies](#tools--technologies)
-- [Python Data Analytics Workflow](#project-workflow) 
+- [Python Data Analytics Workflow](Python-Data-Analytics-Workflow) 
 - [Data Preprocessing](#data-preprocessing)  
 - [Feature Engineering](#feature-engineering)  
 - [Visualization Objectives](#visualization-objectives)  
