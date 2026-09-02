@@ -402,7 +402,7 @@ Identify best performing ROI each year.
 ### Chart Interpretation (Year‑wise Active Cards)
 
 - **Interpretation →** Line chart shows growth/decline in the year of across categories.  
-- **Key Insight →** 2025 consistently ranked best by active cards (2022–2025).  
+- **Key Insight →** 2025 consistently ranked best by moves Digitally and their ROI is 16.35%.  
 - **Pattern →** 2025 year (16.35% ROI), then declined in 2024–2025.  
 - **Trend →** Initial growth momentum followed by decline → signals customer migration or reduced activity.  
 - **Observation →** Growth trends highlight need for **digital adoption + retention strategies**.  
