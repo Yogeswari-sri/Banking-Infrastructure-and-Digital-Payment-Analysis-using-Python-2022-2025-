@@ -1,36 +1,3 @@
-<!-- 🌐 Dynamic Banner Section -->
-<p align="center">
-  <img src="dynamic_banner.jpeg" alt="Banking Infrastructure & Digital Payment Analysis (2022–2025)" width="100%">
-</p>
-
-<h1 align="center">🏦 Banking Infrastructure & Digital Payment Analysis (2022–2025)</h1>
-<h3 align="center">📊 Python + Power BI Capstone Project</h3>
-
-<p align="center">
-  👩‍💻 <b>Prepared by:</b> Yogeswari K <br>
-  📘 <b>Course:</b> Programme in AI Driven Data Analytics, Entri
-</p>
-
----
-
-### 🚀 RBI Dataset • 2022–2025 • End-to-End Analytics  
-💡 <b>Descriptive → Diagnostic → Predictive → Prescriptive</b>  
-🔄 Turning raw banking data into actionable insights  
-
----
-
-### 🌟 Highlights  
-- 6 Visualization Objectives (ATM, POS, QR, UPI, Loyalty, Risk)  
-- 20+ Engineered Features (Active Cards, Stress Index, ROI Ratios)  
-- Four-Layer Analytics Framework for strategic recommendations  
-- Recruiter-friendly README with insights, findings, and business roadmap  
-
----
-
-### 🎯 Keywords  
-`Digital Payments` • `ATM Deployment` • `UPI Adoption` • `Risk Analysis` • `ROI Forecasting` • `Banking Infrastructure` • `Python` • `Power BI` • `Data Analytics`
-
----
 # 🏦 Banking Infrastructure & Digital Payment Analysis (2022–2025)  
 ### 📊 Python + Power BI Capstone Project  
 
