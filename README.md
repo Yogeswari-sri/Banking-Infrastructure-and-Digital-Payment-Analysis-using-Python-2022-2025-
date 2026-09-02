@@ -29,7 +29,7 @@
 - [Project Objectives](#project-objectives)  
 - [Dataset Description](#dataset-description)  
 - [Tools & Technologies](#tools--technologies)
-- [Project Workflow](#Project--Workflow) 
+- [Project Workflow](#project--workflow) 
 - [Data Preprocessing](#data-preprocessing)  
 - [Feature Engineering](#feature-engineering)  
 - [Visualization Objectives](#visualization-objectives)  
