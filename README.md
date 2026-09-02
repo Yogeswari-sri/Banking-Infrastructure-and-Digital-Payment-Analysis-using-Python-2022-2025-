@@ -19,7 +19,7 @@
 - Four‑Layer Analytics Framework for strategic recommendations  
 - Recruiter‑friendly README with insights, findings, and business roadmap  
 
----
+----
 
 ## 🔗 Navigation  
 
@@ -28,7 +28,8 @@
 - [Problem Statement](#problem-statement)  
 - [Project Objectives](#project-objectives)  
 - [Dataset Description](#dataset-description)  
-- [Tools & Technologies](#tools--technologies)  
+- [Tools & Technologies](#tools--technologies)
+- [Project Workflow](#Project--Workflow) 
 - [Data Preprocessing](#data-preprocessing)  
 - [Feature Engineering](#feature-engineering)  
 - [Visualization Objectives](#visualization-objectives)  
@@ -158,6 +159,31 @@ This project leverages a **Python data analysis stack** with industry‑standard
 </div>
 
 ---
+## Project Workflow
+
+## 🔄 Python Data Analytics Workflow
+
+📥 Data Ingestion  
+   ↓  
+🔍 Data Inspection  
+   ↓  
+🧹 Data Cleaning  
+   ↓  
+🔄 Data Transformation  
+   ↓  
+⚙️ Feature Engineering  
+   ↓  
+📊 Exploratory Data Analysis (EDA)  
+   ↓  
+📈 Statistical Analysis  
+   ↓  
+📉 Data Visualization  
+   ↓  
+💡 Insights Generation  
+   ↓  
+🗂️ Decision Making
+
+----
 
 ## 📂 Attribute / Column Dictionary
 
