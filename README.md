@@ -24,12 +24,12 @@
 ## 🔗 Navigation  
 
 - [Executive Summary](#executive-summary)  
-- [Industry Context](#industry-context)  
+- [Industry Context](#industry-context)
+- [Python Data Analytics Workflow](#python-data-analytics-workflow) 
 - [Problem Statement](#problem-statement)  
 - [Project Objectives](#project-objectives)  
 - [Dataset Description](#dataset-description)  
 - [Tools & Technologies](#tools--technologies)
-- [Python Data Analytics Workflow](#python-data-analytics-workflow) 
 - [Data Preprocessing](#data-preprocessing)  
 - [Feature Engineering](#feature-engineering)  
 - [Visualization Objectives](#visualization-objectives)  
