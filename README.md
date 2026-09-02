@@ -63,6 +63,15 @@ The Indian banking sector (2022–2025) is undergoing rapid transformation:
 
 ---
 
+## Python Data Analytics Workflow
+
+### 📌 Workflow Overview
+This project follows a **10‑stage analytics lifecycle** to transform raw banking data into actionable insights.
+
+📥 **Data Ingestion** → 🔍 **Inspection** → 🧹 **Cleaning** → 🔄 **Transformation** → ⚙️ **Feature Engineering** → 📊 **EDA** → 📈 **Statistical Analysis** → 📉 **Visualization** → 💡 **Insights** → 🗂️ **Decision Making**
+
+---
+
 ##  Problem Statement  
 
 ## Task1: Problem Statement & Business Understanding
@@ -157,30 +166,6 @@ This project leverages a **Python data analysis stack** with industry‑standard
 - **Jupyter Notebook** → Interactive analysis & documentation  
 
 </div>
-
----
-
-## Python Data Analytics Workflow
-
-📥 Data Ingestion  
-   ↓  
-🔍 Data Inspection  
-   ↓  
-🧹 Data Cleaning  
-   ↓  
-🔄 Data Transformation  
-   ↓  
-⚙️ Feature Engineering  
-   ↓  
-📊 Exploratory Data Analysis (EDA)  
-   ↓  
-📈 Statistical Analysis  
-   ↓  
-📉 Data Visualization  
-   ↓  
-💡 Insights Generation  
-   ↓  
-🗂️ Decision Making
 
 ----
 
