@@ -112,7 +112,7 @@ This project leverages a **Python data analysis stack** with industry‑standard
 - **NumPy** → Numerical operations & handling divide‑by‑zero artefacts  
 - **Matplotlib** → Visualizations (line charts, barplots, scatter plots)  
 - **Seaborn** → Advanced statistical plots (pair plots, heatmaps)  
-- **Jupyter Notebook** → Interactive analysis & documentation  
+- **Google colab** → Interactive analysis & Easy sharing   
 
 </div>
 
