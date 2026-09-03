@@ -825,13 +825,7 @@ For queries, collaboration, or feedback:
 
 ---
 
-### 🤝 How Recruiters Can Use This Repo
-**Project Workflow:** Data cleaning → preprocessing → feature engineering → visualization → insights generation.
-**Technical Skills:** Python (Pandas, NumPy, Seaborn, Matplotlib), SQL, Excel (Pivot Tables, Power Query), Power BI (DAX, dashboard design).
-**Business Impact:** ROI analysis of ATM, POS, QR channels; customer loyalty metrics; digital adoption recommendations.
-**Portfolio Readiness:** End‑to‑end analytics project demonstrating structured methodology, visualization, and decision‑making skills relevant for data analyst roles.  
 
----
 
 
 
