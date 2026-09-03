@@ -82,7 +82,7 @@ This project follows a **10‑stage analytics lifecycle** to transform raw banki
 | **Granularity** | Yearly + quarterly transaction volumes, balances, and infrastructure counts |
 | **Period**      | 2022–2025 |
 | **File Format** | Excel / CSV |
-| **Environment** | Python (Jupyter Notebook) + Power BI |
+| **Environment** | Python (Google colab) + Power BI |
 | **Link:**       | [https://drive.google.com/drive/folders/1Dcf209_M68RG_CIUWIYA9ZuGPV3Hfd81?usp=drive_link] |
 ---
 
